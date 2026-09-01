@@ -2,8 +2,8 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const LOGO_URL = "https://nexorithm.com.mx/title-dark.png";
-const SUPPORT_EMAIL = "contacto@innovacodigo.com"
+const LOGO_URL = "https://jusnet.com.mx/email.png";
+const SUPPORT_EMAIL = "contacto@jusnet.com.mx"
 
 export async function POST(req: Request) {
   try {

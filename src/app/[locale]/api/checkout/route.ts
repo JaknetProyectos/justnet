@@ -5,9 +5,9 @@ import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Variables de configuración
-const COMPANY_EMAIL = "contacto@innovacodigo.com";
-const COMPANY_SENDER = "Justnet <contacto@innovacodigo.com>";
-const BANNER_URL = "https://nexorithm.com.mx/title-dark.png";
+const COMPANY_EMAIL = "contacto@jusnet.com.mx.com";
+const COMPANY_SENDER = "Justnet <contacto@jusnet.com.mx>";
+const BANNER_URL = "https://jusnet.com.mx/email.png";
 
 
 export async function POST(req: NextRequest) {
