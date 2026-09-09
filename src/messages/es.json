@@ -355,5 +355,50 @@
     "addToCart": "Agregar al carrito",
     "cancel": "Cancelar",
     "brand": "Justnet"
+  },
+  "Emails": {
+    "contactEmail": {
+      "errorMissingFields": "Faltan campos obligatorios",
+      "businessSubject": "Nuevo lead: {asunto}",
+      "businessHeaderTitle": "Nuevo Contacto",
+      "clientDataTitle": "Datos del cliente",
+      "labelEmail": "Email:",
+      "labelPhone": "Teléfono:",
+      "notProvided": "No proporcionado",
+      "labelSubject": "Asunto:",
+      "labelMessage": "Mensaje",
+      "confirmationSubject": "Recibimos tu mensaje | Justnet",
+      "confirmationHeaderTitle": "¡Gracias por escribirnos!",
+      "confirmationGreeting": "Hola {nombre},",
+      "confirmationMessage": "Hemos recibido tu solicitud sobre \"{asunto}\". Nuestro equipo está revisando tu mensaje y nos pondremos en contacto contigo lo antes posible para ayudarte a escalar tu negocio.",
+      "confirmationYourMessage": "Tu Mensaje",
+      "brandSlogan": "Tecnología con visión de negocio",
+      "errorSubmit": "No se pudo enviar el formulario"
+    },
+    "checkoutEmail": {
+      "invalidAmount": "Monto inválido",
+      "customerEmailRequired": "Correo del cliente requerido",
+      "digitalService": "Servicio digital",
+      "confirmationSubject": "Confirmación de compra: {reference}",
+      "confirmationTitle": "¡Gracias por tu compra!",
+      "confirmationGreeting": "Hola {customerName}, tu pago ha sido procesado correctamente. Aquí tienes el resumen de tu pedido {reference}.",
+      "tableHeaderService": "Servicio",
+      "tableHeaderQuantity": "Cant.",
+      "tableHeaderPrice": "Precio",
+      "totalPaid": "Total Pagado:",
+      "nextStepsTitle": "¿Qué sigue ahora?",
+      "nextStepsContent": "Nuestro equipo revisará tu pedido y comenzaremos a trabajar. Si necesitas agregar algo más, responde directamente a este correo.",
+      "footerText": "Justnet | Tecnología con visión de negocio",
+      "businessSubject": "Nuevo pedido recibido: {reference}",
+      "businessHeaderTag": "Nuevo Checkout",
+      "clientDataTitle": "Datos del cliente",
+      "labelName": "Nombre:",
+      "labelEmail": "Email:",
+      "labelPhone": "Teléfono:",
+      "notProvided": "No proporcionado",
+      "totalToReceive": "Total a recibir:",
+      "successMessage": "Emails enviados correctamente",
+      "errorMessage": "Error al enviar los emails"
+    }
   }
 }

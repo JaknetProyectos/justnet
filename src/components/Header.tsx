@@ -89,7 +89,7 @@ export default function Header() {
               className="flex h-11 items-center gap-2 rounded-2xl border border-zinc-800 bg-zinc-900 px-4 text-sm font-semibold text-zinc-200 transition-all duration-300 hover:border-amber-500/50 hover:bg-zinc-800 hover:text-amber-400 disabled:opacity-50"
             >
               <Languages className="h-4 w-4 text-amber-400" />
-              <span>{locale === "es" ? "EN" : "ES"}</span>
+              <span>{locale === "es" ? "ES" : "EN"}</span>
             </button>
 
             {/* Cart */}

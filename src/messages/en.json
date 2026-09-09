@@ -355,5 +355,50 @@
     "addToCart": "Add to cart",
     "cancel": "Cancel",
     "brand": "Justnet"
+  },
+  "Emails": {
+    "contactEmail": {
+      "errorMissingFields": "Missing required fields",
+      "businessSubject": "New lead: {asunto}",
+      "businessHeaderTitle": "New Contact",
+      "clientDataTitle": "Client Details",
+      "labelEmail": "Email:",
+      "labelPhone": "Phone:",
+      "notProvided": "Not provided",
+      "labelSubject": "Subject:",
+      "labelMessage": "Message",
+      "confirmationSubject": "We received your message | Justnet",
+      "confirmationHeaderTitle": "Thank you for writing to us!",
+      "confirmationGreeting": "Hello {nombre},",
+      "confirmationMessage": "We have received your request regarding \"{asunto}\". Our team is reviewing your message and will get back to you as soon as possible to help scale your business.",
+      "confirmationYourMessage": "Your Message",
+      "brandSlogan": "Technology with business vision",
+      "errorSubmit": "Could not send the form"
+    },
+    "checkoutEmail": {
+      "invalidAmount": "Invalid amount",
+      "customerEmailRequired": "Customer email required",
+      "digitalService": "Digital service",
+      "confirmationSubject": "Purchase confirmation: {reference}",
+      "confirmationTitle": "Thank you for your purchase!",
+      "confirmationGreeting": "Hello {customerName}, your payment has been successfully processed. Here is the summary of your order {reference}.",
+      "tableHeaderService": "Service",
+      "tableHeaderQuantity": "Qty.",
+      "tableHeaderPrice": "Price",
+      "totalPaid": "Total Paid:",
+      "nextStepsTitle": "What happens next?",
+      "nextStepsContent": "Our team will review your order and start working on it. If you need to add anything else, reply directly to this email.",
+      "footerText": "Justnet | Technology with business vision",
+      "businessSubject": "New order received: {reference}",
+      "businessHeaderTag": "New Checkout",
+      "clientDataTitle": "Customer details",
+      "labelName": "Name:",
+      "labelEmail": "Email:",
+      "labelPhone": "Phone:",
+      "notProvided": "Not provided",
+      "totalToReceive": "Total to receive:",
+      "successMessage": "Emails sent successfully",
+      "errorMessage": "Error sending emails"
+    }
   }
 }

@@ -25,7 +25,7 @@ export function useContact() {
             const response = await fetch(`/${locale ?? "es"}/api/contacto`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(data),
+                body: JSON.stringify({ ...data, locale }),
             });
 
             const result = await response.json();

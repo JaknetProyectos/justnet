@@ -67,42 +67,6 @@ export const SingleServicesSpanish = [
 
 export const DataServicesSpanish = [
     {
-        id: 11,
-        nombre: "Data Premium Pro",
-        precio: 25000,
-        descripcion: "2 modelos predictivos (machine learning ligero) + actualizaciones + soporte + análisis estadístico + consultoría estratégica.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1757394158126-c4b2ed81617a?q=80"
-        )
-    },
-    {
-        id: 7,
-        nombre: "Insights Continuos",
-        precio: 18000,
-        descripcion: "Dashboard en la nube + 1 reporte + 1 KPI + actualización automática + integración con base de datos + análisis estadístico bajo demanda + soporte.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1780626754095-1ffdffd70a90?q=80"
-        )
-    },
-    {
-        id: 4,
-        nombre: "Visión 360 Data",
-        precio: 12000,
-        descripcion: "Dashboard en la nube + 1 reporte + 1 KPI + actualización automática + integración con base de datos.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1788230741938-db0fcd033e99?q=80"
-        )
-    },
-    {
-        id: 3,
-        nombre: "Encuesta Inteligente",
-        precio: 8500,
-        descripcion: "Plataforma SaaS de encuestas + análisis (gráficos, segmentación, exportación) + creación de 5 encuestas.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1761074483084-ec628a7624b6?q=80"
-        )
-    },
-    {
         id: 1,
         nombre: "Data Start 3K",
         precio: 3000,
@@ -121,6 +85,24 @@ export const DataServicesSpanish = [
         )
     },
     {
+        id: 3,
+        nombre: "Encuesta Inteligente",
+        precio: 8500,
+        descripcion: "Plataforma SaaS de encuestas + análisis (gráficos, segmentación, exportación) + creación de 5 encuestas.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1761074483084-ec628a7624b6?q=80"
+        )
+    },
+    {
+        id: 4,
+        nombre: "Visión 360 Data",
+        precio: 12000,
+        descripcion: "Dashboard en la nube + 1 reporte + 1 KPI + actualización automática + integración con base de datos.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1788230741938-db0fcd033e99?q=80"
+        )
+    },
+    {
         id: 5,
         nombre: "Estratega de Datos",
         precio: 15000,
@@ -136,6 +118,15 @@ export const DataServicesSpanish = [
         descripcion: "BI + dashboard + KPI operacional + análisis estadístico + recomendaciones operativas.",
         imagen: getOptimizedUrl(
             "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+        )
+    },
+    {
+        id: 7,
+        nombre: "Insights Continuos",
+        precio: 18000,
+        descripcion: "Dashboard en la nube + 1 reporte + 1 KPI + actualización automática + integración con base de datos + análisis estadístico bajo demanda + soporte.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1780626754095-1ffdffd70a90?q=80"
         )
     },
     {
@@ -163,6 +154,15 @@ export const DataServicesSpanish = [
         descripcion: "7 encuestas, dashboard, análisis estadístico, predicción de retención o churn, consultoría de crecimiento.",
         imagen: getOptimizedUrl(
             "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a"
+        )
+    },
+    {
+        id: 11,
+        nombre: "Data Premium Pro",
+        precio: 25000,
+        descripcion: "2 modelos predictivos (machine learning ligero) + actualizaciones + soporte + análisis estadístico + consultoría estratégica.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1757394158126-c4b2ed81617a?q=80"
         )
     },
     {
@@ -235,42 +235,6 @@ export const SingleServicesEnglish = [
 
 export const DataServicesEnglish = [
     {
-        id: 11,
-        nombre: "Data Premium Pro",
-        precio: 25000,
-        descripcion: "2 predictive models (lightweight machine learning) + updates + support + statistical analysis + strategic consulting.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1757394158126-c4b2ed81617a?q=80"
-        )
-    },
-    {
-        id: 7,
-        nombre: "Continuous Insights",
-        precio: 18000,
-        descripcion: "Cloud dashboard + 1 report + 1 KPI + automatic updates + database integration + on-demand statistical analysis + support.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1780626754095-1ffdffd70a90?q=80"
-        )
-    },
-    {
-        id: 4,
-        nombre: "360 Data Vision",
-        precio: 12000,
-        descripcion: "Cloud dashboard + 1 report + 1 KPI + automatic updates + database integration.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1774594138186-815823cc90bc?q=80"
-        )
-    },
-    {
-        id: 3,
-        nombre: "Smart Survey",
-        precio: 8500,
-        descripcion: "Survey SaaS platform + analytics (charts, segmentation, export tools) + creation of 5 surveys.",
-        imagen: getOptimizedUrl(
-            "https://images.unsplash.com/vector-1761074483084-ec628a7624b6?q=80"
-        )
-    },
-    {
         id: 1,
         nombre: "Data Start 3K",
         precio: 3000,
@@ -289,10 +253,28 @@ export const DataServicesEnglish = [
         )
     },
     {
+        id: 3,
+        nombre: "Smart Survey",
+        precio: 8500,
+        descripcion: "SaaS survey platform + analytics (charts, segmentation, export) + creation of 5 surveys.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1761074483084-ec628a7624b6?q=80"
+        )
+    },
+    {
+        id: 4,
+        nombre: "360 Data Vision",
+        precio: 12000,
+        descripcion: "Cloud dashboard + 1 report + 1 KPI + automatic updates + database integration.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1788230741938-db0fcd033e99?q=80"
+        )
+    },
+    {
         id: 5,
         nombre: "Data Strategist",
         precio: 15000,
-        descripcion: "Consulting + platform + guidance for interpreting data + actions + basic dashboard.",
+        descripcion: "Consulting + platform + guidance for data interpretation + actionable insights + basic dashboard.",
         imagen: getOptimizedUrl(
             "https://images.unsplash.com/vector-1786212333312-b2d8eab5a9f9?q=80"
         )
@@ -307,10 +289,19 @@ export const DataServicesEnglish = [
         )
     },
     {
+        id: 7,
+        nombre: "Continuous Insights",
+        precio: 18000,
+        descripcion: "Cloud dashboard + 1 report + 1 KPI + automatic updates + database integration + on-demand statistical analysis + support.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1780626754095-1ffdffd70a90?q=80"
+        )
+    },
+    {
         id: 8,
         nombre: "Marketing Metrics Master",
         precio: 19000,
-        descripcion: "Marketing and sales KPI dashboard + predictive demand analysis + 1 automated report.",
+        descripcion: "Marketing and sales KPI panel + predictive demand analysis + 1 automated report.",
         imagen: getOptimizedUrl(
             "https://images.unsplash.com/vector-1788230742050-6e810cf3ea03?q=80"
         )
@@ -334,6 +325,15 @@ export const DataServicesEnglish = [
         )
     },
     {
+        id: 11,
+        nombre: "Data Premium Pro",
+        precio: 25000,
+        descripcion: "2 predictive models (lightweight machine learning) + updates + support + statistical analysis + strategic consulting.",
+        imagen: getOptimizedUrl(
+            "https://images.unsplash.com/vector-1757394158126-c4b2ed81617a?q=80"
+        )
+    },
+    {
         id: 12,
         nombre: "Corporate Data Scale",
         precio: 35000,
@@ -342,5 +342,4 @@ export const DataServicesEnglish = [
             "https://images.unsplash.com/vector-1786329854241-025a4b623890?q=80"
         )
     }
-]
-
+];
