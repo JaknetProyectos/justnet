@@ -12,7 +12,7 @@ export function useProduct(id: string) {
     const services = locale == "es" ? SingleServicesSpanish : SingleServicesEnglish;
     const data = locale == "es" ? DataServicesSpanish : DataServicesEnglish;
 
-    let target: CartItem = {
+    const target: CartItem = {
         id: 0,
         nombre: "",
         precio: 0,
@@ -21,7 +21,7 @@ export function useProduct(id: string) {
         cantidad: 1
     };
 
-    for (let service of services) {
+    for (const service of services) {
         if (service.id.toString() == id) {
             target.id = service.id;
             target.nombre = service.nombre;
@@ -31,7 +31,7 @@ export function useProduct(id: string) {
         }
     }
 
-    for (let pack of data) {
+    for (const pack of data) {
         if (pack.id.toString() == id) {
             target.id = pack.id;
             target.nombre = pack.nombre;
