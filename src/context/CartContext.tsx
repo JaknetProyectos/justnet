@@ -31,7 +31,7 @@ interface CartContextType {
   totalPriceFormatted: string;
 }
 
-const STORAGE_KEY = "bi-desk-cart";
+const STORAGE_KEY = "jusnet-cart";
 
 const CartContext = createContext<CartContextType | undefined>(
   undefined

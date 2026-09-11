@@ -24,7 +24,7 @@ export async function POST(req: Request) {
      * EMAIL PARA EL NEGOCIO (Naranja con negro)
      */
     await resend.emails.send({
-      from: `Justnet <${SUPPORT_EMAIL}>`,
+      from: `Jusnet <${SUPPORT_EMAIL}>`,
       to: [SUPPORT_EMAIL],
       replyTo: email,
       subject: t("businessSubject", { asunto }),
@@ -33,7 +33,7 @@ export async function POST(req: Request) {
           <div style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; border: 1px solid #ffedd5; box-shadow: 0 10px 25px rgba(249, 115, 22, 0.1);">
             
             <div style="background: #f97316; padding: 32px; text-align: center;">
-              <img src="${LOGO_URL}" alt="Justnet" style="width: 150px; margin-bottom: 16px;" />
+              <img src="${LOGO_URL}" alt="Jusnet" style="width: 150px; margin-bottom: 16px;" />
               <h1 style="margin: 0; color: #09090b; font-size: 28px; font-weight: 800;">${t("businessHeaderTitle")}</h1>
             </div>
 
@@ -61,7 +61,7 @@ export async function POST(req: Request) {
      * EMAIL DE CONFIRMACIÓN PARA EL CLIENTE (Negro con naranja)
      */
     await resend.emails.send({
-      from: `Justnet <${SUPPORT_EMAIL}>`,
+      from: `Jusnet <${SUPPORT_EMAIL}>`,
       to: [email],
       subject: t("confirmationSubject"),
       html: `
@@ -69,7 +69,7 @@ export async function POST(req: Request) {
           <div style="max-width: 600px; margin: 0 auto; background: #18181b; border-radius: 16px; overflow: hidden; border: 1px solid #27272a; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);">
             
             <div style="padding: 40px 32px; text-align: center; border-bottom: 2px solid #f97316;">
-              <img src="${LOGO_URL}" alt="Justnet" style="width: 160px; margin-bottom: 20px;" />
+              <img src="${LOGO_URL}" alt="Jusnet" style="width: 160px; margin-bottom: 20px;" />
               <h1 style="margin: 0; color: #f97316; font-size: 32px; font-weight: 800;">${t("confirmationHeaderTitle")}</h1>
             </div>
 
@@ -85,7 +85,7 @@ export async function POST(req: Request) {
               </div>
 
               <div style="text-align: center; border-top: 1px solid #27272a; padding-top: 24px;">
-                <p style="margin: 0 0 8px; color: #f97316; font-size: 14px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Justnet</p>
+                <p style="margin: 0 0 8px; color: #f97316; font-size: 14px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Jusnet</p>
                 <p style="margin: 0; color: #71717a; font-size: 13px;">${t("brandSlogan")}</p>
               </div>
             </div>

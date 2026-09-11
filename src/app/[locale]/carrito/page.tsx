@@ -23,16 +23,9 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { useAlert } from "@/context/AlertContext";
 import { formatPrice } from "@/lib/price";
+import { useProduct } from "@/hooks/useServices";
 
-interface CartItem {
-  id: number | string;
-  nombre: string;
-  precio: number;
-  precioFormateado?: string;
-  imagen: string;
-  cantidad?: number;
-  quantity?: number;
-}
+import { CartItem } from "@/context/CartContext";
 
 interface CheckoutFormData {
   firstName: string;
@@ -79,6 +72,58 @@ const coupons = [
   { code: "BI20", discount: 20 },
 ] as const;
 
+
+
+export function CartItemRow({ item, formatPrice }: { item: any, formatPrice: (val: number) => string }) {
+  const t = useTranslations("cart");
+  // Si necesitas llamar a un Hook para obtener o sincronizar los datos del servicio en tiempo real:
+  // const serviceData = useService(item.id);
+  const serviceData = useProduct(item.id)
+  const qty = serviceData.cantidad ?? item.quantity ?? 1;
+  const lineTotal = serviceData.precio * qty;
+
+  return (
+    <div
+      key={serviceData.id}
+      className="flex gap-4 rounded-[28px] border border-zinc-800 bg-zinc-950 p-4 transition-transform duration-300 hover:-translate-y-0.5"
+    >
+      <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
+        <img
+          src={serviceData.imagen}
+          alt={serviceData.nombre}
+          className="h-full w-full object-cover"
+        />
+      </div>
+
+      <div className="min-w-0 flex-1">
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0">
+            <h4 className="text-lg font-bold leading-tight text-zinc-100">
+              {serviceData.nombre}
+            </h4>
+            <p className="mt-1 text-sm text-zinc-400">
+              {t("quantity")}: {qty}
+            </p>
+          </div>
+
+          <div className="shrink-0 text-right">
+            <p className="text-sm text-zinc-400">
+              {t("subtotal")}
+            </p>
+            <p className="font-bold text-amber-400">
+              {formatPrice(lineTotal)}
+            </p>
+          </div>
+        </div>
+
+        <p className="mt-3 text-sm leading-relaxed text-zinc-500">
+          $ {serviceData.precio} MXN {t("beforeVat")}
+        </p>
+      </div>
+    </div>
+  );
+}
+
 type Coupon = (typeof coupons)[number];
 
 export default function CarritoPage() {
@@ -91,6 +136,7 @@ export default function CarritoPage() {
   };
 
   const items = cart.items ?? [];
+
   const clearCart = cart.clearCart;
 
   const [step, setStep] = useState<1 | 2>(1);
@@ -108,7 +154,7 @@ export default function CarritoPage() {
 
   const subtotal = useMemo(() => {
     return items.reduce((acc, item) => {
-      const qty = item.cantidad ?? item.quantity ?? 1;
+      const qty = item.cantidad ?? 1;
       return acc + item.precio * qty;
     }, 0);
   }, [items]);
@@ -136,7 +182,7 @@ export default function CarritoPage() {
 
   const totalItems = useMemo(() => {
     return items.reduce(
-      (acc, item) => acc + (item.cantidad ?? item.quantity ?? 1),
+      (acc, item) => acc + (item.cantidad ?? 1),
       0
     );
   }, [items]);
@@ -217,7 +263,7 @@ export default function CarritoPage() {
       });
 
       if (!paymentResult.success) {
-        console.log(paymentResult);
+
         throw new Error(t("paymentRejected"));
       }
 
@@ -308,21 +354,19 @@ export default function CarritoPage() {
 
             <div className="flex flex-wrap items-center gap-3">
               <div
-                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors shadow-sm ${
-                  step === 1
-                    ? "border-zinc-800 bg-zinc-900 text-amber-400"
-                    : "border-white/20 bg-white/10 text-orange-100 backdrop-blur-md"
-                }`}
+                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors shadow-sm ${step === 1
+                  ? "border-zinc-800 bg-zinc-900 text-amber-400"
+                  : "border-white/20 bg-white/10 text-orange-100 backdrop-blur-md"
+                  }`}
               >
                 1. {t("stepCart")}
               </div>
               <ChevronRight className="w-4 h-4 text-orange-200" />
               <div
-                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors shadow-sm ${
-                  step === 2
-                    ? "border-zinc-800 bg-zinc-900 text-amber-400"
-                    : "border-white/20 bg-white/10 text-orange-100 backdrop-blur-md"
-                }`}
+                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors shadow-sm ${step === 2
+                  ? "border-zinc-800 bg-zinc-900 text-amber-400"
+                  : "border-white/20 bg-white/10 text-orange-100 backdrop-blur-md"
+                  }`}
               >
                 2. {t("stepPayment")}
               </div>
@@ -371,51 +415,15 @@ export default function CarritoPage() {
                   <div className="p-6 sm:p-8">
                     {step === 1 ? (
                       <div className="space-y-5">
-                        {items.map((item) => {
-                          const qty = item.cantidad ?? item.quantity ?? 1;
-                          const lineTotal = item.precio * qty;
+                        {items.map((item) => (
 
-                          return (
-                            <div
-                              key={item.id}
-                              className="flex gap-4 rounded-[28px] border border-zinc-800 bg-zinc-950 p-4 transition-transform duration-300 hover:-translate-y-0.5"
-                            >
-                              <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
-                                <img
-                                  src={item.imagen}
-                                  alt={item.nombre}
-                                  className="h-full w-full object-cover"
-                                />
-                              </div>
+                          <CartItemRow
+                            key={item.id}
+                            item={item}
 
-                              <div className="min-w-0 flex-1">
-                                <div className="flex items-start justify-between gap-4">
-                                  <div className="min-w-0">
-                                    <h4 className="text-lg font-bold leading-tight text-zinc-100">
-                                      {item.nombre}
-                                    </h4>
-                                    <p className="mt-1 text-sm text-zinc-400">
-                                      {t("quantity")}: {qty}
-                                    </p>
-                                  </div>
-
-                                  <div className="shrink-0 text-right">
-                                    <p className="text-sm text-zinc-400">
-                                      {t("subtotal")}
-                                    </p>
-                                    <p className="font-bold text-amber-400">
-                                      {formatPrice(lineTotal)}
-                                    </p>
-                                  </div>
-                                </div>
-
-                                <p className="mt-3 text-sm leading-relaxed text-zinc-500">
-                                  $ {item.precio} MXN {t("beforeVat")}
-                                </p>
-                              </div>
-                            </div>
-                          );
-                        })}
+                            formatPrice={formatPrice}
+                          />
+                        ))}
 
                         <div className="flex flex-col gap-4 pt-4 sm:flex-row">
                           <button
@@ -704,11 +712,10 @@ export default function CarritoPage() {
 
                     {couponMessage ? (
                       <p
-                        className={`mt-3 text-sm font-medium ${
-                          couponMessage.type === "success"
-                            ? "text-green-400"
-                            : "text-red-400"
-                        }`}
+                        className={`mt-3 text-sm font-medium ${couponMessage.type === "success"
+                          ? "text-green-400"
+                          : "text-red-400"
+                          }`}
                       >
                         {couponMessage.text}
                       </p>

@@ -10,7 +10,7 @@ export interface Service {
 
 export const SingleServicesSpanish = [
     {
-        id: 5,
+        id: 15,
         nombre: "Diagnóstico inicial de datos",
         precio: 5000,
         descripcion: "Servicio: evaluación del estado actual de datos y recomendaciones.",
@@ -19,7 +19,7 @@ export const SingleServicesSpanish = [
         )
     },
     {
-        id: 6,
+        id: 16,
         nombre: "Software SaaS de encuestas + análisis",
         precio: 6000,
         descripcion: "Servicio: plataforma de encuestas con reportes automáticos.",
@@ -28,7 +28,7 @@ export const SingleServicesSpanish = [
         )
     },
     {
-        id: 7,
+        id: 17,
         nombre: "Análisis estadístico a la medida",
         precio: 7000,
         descripcion: "Servicio: análisis estadístico personalizado con interpretación de resultados.",
@@ -37,7 +37,7 @@ export const SingleServicesSpanish = [
         )
     },
     {
-        id: 8,
+        id: 18,
         nombre: "Dashboard / BI en la nube",
         precio: 10000,
         descripcion: "Servicio: visualización de datos, KPI, reportes y actualizaciones automáticas.",
@@ -46,7 +46,7 @@ export const SingleServicesSpanish = [
         )
     },
     {
-        id: 9,
+        id: 19,
         nombre: "Consultoría + plataforma de seguimiento",
         precio: 12000,
         descripcion: "Servicio: consultoría continua con panel de seguimiento.",
@@ -55,7 +55,7 @@ export const SingleServicesSpanish = [
         )
     },
     {
-        id: 10,
+        id: 110,
         nombre: "Modelos predictivos / machine learning ligero",
         precio: 15000,
         descripcion: "Servicio: modelos predictivos básicos para proyecciones y tendencias.",
@@ -67,7 +67,7 @@ export const SingleServicesSpanish = [
 
 export const SingleServicesEnglish = [
     {
-        id: 5,
+        id: 15,
         nombre: "Initial Data Diagnosis",
         precio: 5000,
         descripcion: "Service: evaluation of the current state of data and recommendations.",
@@ -76,7 +76,7 @@ export const SingleServicesEnglish = [
         )
     },
     {
-        id: 6,
+        id: 16,
         nombre: "Survey SaaS Software + Analytics",
         precio: 6000,
         descripcion: "Service: survey platform with automated reports.",
@@ -85,7 +85,7 @@ export const SingleServicesEnglish = [
         )
     },
     {
-        id: 7,
+        id: 17,
         nombre: "Custom Statistical Analysis",
         precio: 7000,
         descripcion: "Service: personalized statistical analysis with result interpretation.",
@@ -94,7 +94,7 @@ export const SingleServicesEnglish = [
         )
     },
     {
-        id: 8,
+        id: 18,
         nombre: "Cloud Dashboard / BI",
         precio: 10000,
         descripcion: "Service: data visualization, KPIs, reports, and automatic updates.",
@@ -103,7 +103,7 @@ export const SingleServicesEnglish = [
         )
     },
     {
-        id: 9,
+        id: 19,
         nombre: "Consulting + Monitoring Platform",
         precio: 12000,
         descripcion: "Service: ongoing consulting with monitoring dashboard.",
@@ -112,7 +112,7 @@ export const SingleServicesEnglish = [
         )
     },
     {
-        id: 10,
+        id: 110,
         nombre: "Predictive Models / Lightweight Machine Learning",
         precio: 15000,
         descripcion: "Service: basic predictive models for forecasts and trends.",
@@ -124,7 +124,7 @@ export const SingleServicesEnglish = [
 
 export const DataServicesSpanish = [
     {
-        id: 1,
+        id: 21,
         nombre: "Data Start 3K",
         precio: 3000,
         descripcion: "Mini-dashboard básico (1 vista). Carga de datos manual (1 archivo).",
@@ -133,7 +133,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 2,
+        id: 22,
         nombre: "Analítica Esencial 5K",
         precio: 5000,
         descripcion: "Dashboard con 2 vistas de BI. Integración con 1 fuente de datos (Excel, Google Sheets o CSV).",
@@ -142,7 +142,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 3,
+        id: 23,
         nombre: "Encuesta Inteligente",
         precio: 8500,
         descripcion: "Plataforma SaaS de encuestas + análisis (gráficos, segmentación, exportación) + creación de 5 encuestas.",
@@ -151,7 +151,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 4,
+        id: 24,
         nombre: "Visión 360 Data",
         precio: 12000,
         descripcion: "Dashboard en la nube + 1 reporte + 1 KPI + actualización automática + integración con base de datos.",
@@ -160,7 +160,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 5,
+        id: 25,
         nombre: "Estratega de Datos",
         precio: 15000,
         descripcion: "Consultoría + plataforma + acompañamiento para interpretar datos + acciones + dashboard básico.",
@@ -169,7 +169,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 6,
+        id: 26,
         nombre: "Operaciones Óptimas",
         precio: 17000,
         descripcion: "BI + dashboard + KPI operacional + análisis estadístico + recomendaciones operativas.",
@@ -178,7 +178,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 7,
+        id: 27,
         nombre: "Insights Continuos",
         precio: 18000,
         descripcion: "Dashboard en la nube + 1 reporte + 1 KPI + actualización automática + integración con base de datos + análisis estadístico bajo demanda + soporte.",
@@ -187,7 +187,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 8,
+        id: 28,
         nombre: "Marketing Metrics Master",
         precio: 19000,
         descripcion: "Panel para KPI de marketing y ventas + análisis predictivo de demanda + 1 reporte automatizado.",
@@ -196,7 +196,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 9,
+        id: 29,
         nombre: "Predicción Plus",
         precio: 20000,
         descripcion: "2 modelos predictivos (machine learning ligero) + dashboard + actualizaciones + soporte.",
@@ -205,7 +205,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 10,
+        id: 210,
         nombre: "Growth Inteligente",
         precio: 22000,
         descripcion: "7 encuestas, dashboard, análisis estadístico, predicción de retención o churn, consultoría de crecimiento.",
@@ -214,7 +214,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 11,
+        id: 211,
         nombre: "Data Premium Pro",
         precio: 25000,
         descripcion: "2 modelos predictivos (machine learning ligero) + actualizaciones + soporte + análisis estadístico + consultoría estratégica.",
@@ -223,7 +223,7 @@ export const DataServicesSpanish = [
         )
     },
     {
-        id: 12,
+        id: 212,
         nombre: "Corporativo Data Scale",
         precio: 35000,
         descripcion: "Solución integral: BI + modelado predictivo + análisis estadístico + 10 encuestas + consultoría estratégica + soporte dedicado.",
@@ -233,11 +233,9 @@ export const DataServicesSpanish = [
     }
 ]
 
-
-
 export const DataServicesEnglish = [
     {
-        id: 1,
+        id: 21,
         nombre: "Data Start 3K",
         precio: 3000,
         descripcion: "Basic mini-dashboard (1 view). Manual data upload (1 file).",
@@ -246,7 +244,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 2,
+        id: 22,
         nombre: "Essential Analytics 5K",
         precio: 5000,
         descripcion: "Dashboard with 2 BI views. Integration with 1 data source (Excel, Google Sheets, or CSV).",
@@ -255,7 +253,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 3,
+        id: 23,
         nombre: "Smart Survey",
         precio: 8500,
         descripcion: "SaaS survey platform + analytics (charts, segmentation, export) + creation of 5 surveys.",
@@ -264,7 +262,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 4,
+        id: 24,
         nombre: "360 Data Vision",
         precio: 12000,
         descripcion: "Cloud dashboard + 1 report + 1 KPI + automatic updates + database integration.",
@@ -273,7 +271,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 5,
+        id: 25,
         nombre: "Data Strategist",
         precio: 15000,
         descripcion: "Consulting + platform + guidance for data interpretation + actionable insights + basic dashboard.",
@@ -282,7 +280,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 6,
+        id: 26,
         nombre: "Optimal Operations",
         precio: 17000,
         descripcion: "BI + dashboard + operational KPI + statistical analysis + operational recommendations.",
@@ -291,7 +289,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 7,
+        id: 27,
         nombre: "Continuous Insights",
         precio: 18000,
         descripcion: "Cloud dashboard + 1 report + 1 KPI + automatic updates + database integration + on-demand statistical analysis + support.",
@@ -300,7 +298,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 8,
+        id: 28,
         nombre: "Marketing Metrics Master",
         precio: 19000,
         descripcion: "Marketing and sales KPI panel + predictive demand analysis + 1 automated report.",
@@ -309,7 +307,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 9,
+        id: 29,
         nombre: "Prediction Plus",
         precio: 20000,
         descripcion: "2 predictive models (lightweight machine learning) + dashboard + updates + support.",
@@ -318,7 +316,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 10,
+        id: 210,
         nombre: "Smart Growth",
         precio: 22000,
         descripcion: "7 surveys, dashboard, statistical analysis, retention or churn prediction, growth consulting.",
@@ -327,7 +325,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 11,
+        id: 211,
         nombre: "Data Premium Pro",
         precio: 25000,
         descripcion: "2 predictive models (lightweight machine learning) + updates + support + statistical analysis + strategic consulting.",
@@ -336,7 +334,7 @@ export const DataServicesEnglish = [
         )
     },
     {
-        id: 12,
+        id: 212,
         nombre: "Corporate Data Scale",
         precio: 35000,
         descripcion: "Comprehensive solution: BI + predictive modeling + statistical analysis + 10 surveys + strategic consulting + dedicated support.",

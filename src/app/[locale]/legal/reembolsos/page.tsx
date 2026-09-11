@@ -11,178 +11,92 @@ function LegalEs() {
             <LegalStyle />
 
             <section>
-                <h1 id="politica-de-devoluciones-y-reembolsos"><strong>Política de devoluciones y reembolsos</strong></h1>
+                <h1>Política de devoluciones y reembolsos</h1>
+                <p>BOTTLENECK CART, S.A. DE C.V. (JUSTNET)</p>
 
-                <p><strong>BOTTLENECK CART, S.A. DE C.V. (<strong>JUSTNET</strong>)</strong></p>
+                <h2>1. DISPOSICIONES GENERALES</h2>
+                <p>La presente Política regula las condiciones para solicitudes de cancelación y reembolso aplicables a los servicios, productos y plataformas SaaS proporcionados por BOTTLENECK CART, S.A. DE C.V. (“JUSTNET” o “la Empresa”), de conformidad con los Términos y Condiciones aceptados por el Usuario.</p>
+                <p>Al contratar, utilizar o acceder a los servicios de JUSTNET, el Usuario reconoce haber leído y aceptado esta Política.</p>
 
-                <p><strong>1. DISPOSICIONES GENERALES</strong></p>
-
-                <p>
-                    La presente Política regula las condiciones para solicitudes de cancelación y reembolso aplicables a los servicios, productos y plataformas SaaS proporcionados por <strong>BOTTLENECK CART, S.A. DE C.V.</strong> (“JUSTNET” o “la Empresa”), de conformidad con los Términos y Condiciones aceptados por el Usuario.
-                </p>
-
-                <p>
-                    Al contratar, utilizar o acceder a los servicios de JUSTNET, el Usuario reconoce haber leído y aceptado esta Política.
-                </p>
-
-                <p><strong>2. SOBRE CANCELACIONES</strong></p>
-
-                <p><strong>2.1. Solicitud de Cancelación</strong></p>
-
-                <p>
-                    Las solicitudes de cancelación deberán enviarse por escrito al correo:
-                    <strong>contacto@jusnet.com.mx</strong>
-                </p>
-
+                <h2>2. SOBRE CANCELACIONES</h2>
+                <p>2.1. Solicitud de Cancelación</p>
+                <p>Las solicitudes de cancelación deberán enviarse por escrito al correo: contacto@jusnet.com.mx</p>
                 <p>La solicitud deberá incluir:</p>
-
                 <ul>
                     <li>Nombre del Usuario</li>
                     <li>Servicio o paquete contratado</li>
                     <li>Fecha de contratación</li>
                     <li>Motivo de la cancelación</li>
                 </ul>
-
-                <p>
-                    JUSTNET analizará cada solicitud caso por caso y comunicará su resolución al Usuario.
-                </p>
-
-                <p><strong>2.2. Cancelaciones de Servicios Recurrentes</strong></p>
-
+                <p>JUSTNET analizará cada solicitud caso por caso y comunicará su resolución al Usuario.</p>
+                <p>2.2. Cancelaciones de Servicios Recurrentes</p>
                 <p>En servicios con modalidad de suscripción o pagos recurrentes:</p>
-
                 <ul>
-                    <li>La cancelación <strong>no exime</strong> al Usuario de cubrir pagos previamente generados o facturados.</li>
-                    <li>
-                        Para evitar el siguiente ciclo de cobro, la cancelación deberá solicitarse
-                        <strong>antes de la fecha de renovación</strong>
-                        publicada o indicada en la cotización.
-                    </li>
+                    <li>La cancelación no exime al Usuario de cubrir pagos previamente generados o facturados.</li>
+                    <li>Para evitar el siguiente ciclo de cobro, la cancelación deberá solicitarse antes de la fecha de renovación publicada o indicada en la cotización.</li>
                 </ul>
-
-                <p><strong>2.3. Efecto de la Cancelación</strong></p>
-
+                <p>2.3. Efecto de la Cancelación</p>
                 <p>Al confirmarse la cancelación:</p>
-
                 <ul>
                     <li>Se deshabilitará el acceso del Usuario a la plataforma o servicio.</li>
-                    <li>
-                        No se conservarán integraciones, automatizaciones, dashboards o configuraciones,
-                        salvo que exista acuerdo por escrito para su resguardo.
-                    </li>
+                    <li>No se conservarán integraciones, automatizaciones, dashboards o configuraciones, salvo que exista acuerdo por escrito para su resguardo.</li>
                 </ul>
 
-                <p><strong>3. REEMBOLSOS</strong></p>
-
-                <p><strong>3.1. Política General</strong></p>
-
-                <p>
-                    Como regla general, <strong>JUSTNET no ofrece reembolsos</strong>, salvo que:
-                </p>
-
+                <h2>3. REEMBOLSOS</h2>
+                <p>3.1. Política General</p>
+                <p>Como regla general, JUSTNET no ofrece reembolsos, salvo que:</p>
                 <ul>
-                    <li>El servicio no haya sido provisto conforme a lo ofertado.</li>
-                    <li>
-                        Tras la evaluación interna de JUSTNET, se determine que el Usuario tiene derecho al reembolso.
-                    </li>
+                    <li>El servicio no haya sido provisto conforme a lo ofertado, y</li>
+                    <li>Tras la evaluación interna de JUSTNET, se determine que el Usuario tiene derecho al reembolso.</li>
                 </ul>
-
                 <p>El reembolso no procede por:</p>
-
                 <ul>
                     <li>Errores del Usuario al proporcionar información.</li>
                     <li>Falta de interés, tiempo, uso o desconocimiento del funcionamiento de la plataforma.</li>
                     <li>Problemas originados por servicios o proveedores externos ajenos a JUSTNET.</li>
-                    <li>
-                        Falta de resultados derivados de mal uso, uso incompleto o interpretación de datos,
-                        dashboards o predicciones.
-                    </li>
+                    <li>Falta de resultados derivados de mal uso, uso incompleto o interpretación de datos, dashboards o predicciones.</li>
                 </ul>
-
-                <p><strong>3.2. Servicios Personalizados o a la Medida</strong></p>
-
+                <p>3.2. Servicios Personalizados o a la Medida</p>
                 <p>No son reembolsables:</p>
-
                 <ul>
                     <li>Desarrollo de dashboards personalizados.</li>
                     <li>Modelos predictivos hechos a la medida.</li>
                     <li>Consultorías, integraciones o automatizaciones personalizadas.</li>
                     <li>Diseño, configuración o parametrización específica solicitada por el Usuario.</li>
                 </ul>
+                <p>3.3. Servicios de Suscripción</p>
+                <p>No se realizan reembolsos parciales o proporcionales por meses, semanas o días no utilizados.</p>
+                <p>Si el Usuario cancela antes de finalizar el periodo contratado, el acceso se suspenderá, pero no se realizará devolución alguna.</p>
 
-                <p><strong>3.3. Servicios de Suscripción</strong></p>
-
-                <p>
-                    No se realizan reembolsos parciales o proporcionales por meses, semanas o días no utilizados.
-                </p>
-
-                <p>
-                    Si el Usuario cancela antes de finalizar el periodo contratado,
-                    <strong>el acceso se suspenderá</strong>,
-                    pero no se realizará devolución alguna.
-                </p>
-
-                <p><strong>4. PROCEDIMIENTO DE REEMBOLSO (CUANDO PROCEDA)</strong></p>
-
-                <p>
-                    En los casos excepcionales donde JUSTNET determine procedencia de reembolso:
-                </p>
-
-                <ul>
+                <h2>4. PROCEDIMIENTO DE REEMBOLSO (CUANDO PROCEDA)</h2>
+                <p>En los casos excepcionales donde JUSTNET determine procedencia de reembolso:</p>
+                <ol>
                     <li>La Empresa notificará por correo la aprobación del reembolso.</li>
                     <li>El proceso se realizará mediante el mismo método de pago utilizado.</li>
-                    <li>
-                        El tiempo para ver reflejado el reembolso dependerá del banco o institución emisora de la tarjeta.
-                    </li>
-                    <li>
-                        JUSTNET únicamente procesa la devolución;
-                        <strong>
-                            el reflejo del dinero en la cuenta del Usuario está sujeto a los tiempos de la institución bancaria
-                        </strong>.
-                    </li>
-                </ul>
+                    <li>El tiempo para ver reflejado el reembolso dependerá del banco o institución emisora de la tarjeta.</li>
+                    <li>JUSTNET únicamente procesa la devolución; el reflejo del dinero en la cuenta del Usuario está sujeto a los tiempos de la institución bancaria.</li>
+                </ol>
 
-                <p><strong>5. TIEMPOS DE PROCESAMIENTO</strong></p>
-
+                <h2>5. TIEMPOS DE PROCESAMIENTO</h2>
                 <ul>
-                    <li>
-                        JUSTNET confirmará la recepción de la solicitud dentro de
-                        <strong>24 horas hábiles</strong>.
-                    </li>
-                    <li>
-                        Una vez aprobada la solicitud, el reembolso será procesado en un plazo de
-                        <strong>15 a 30 días hábiles</strong>,
-                        dependiendo de los tiempos de la institución bancaria.
-                    </li>
+                    <li>JUSTNET confirmará la recepción de la solicitud dentro de 24 horas hábiles.</li>
+                    <li>Una vez aprobada la solicitud, el reembolso será procesado en un plazo de 15 a 30 días hábiles, dependiendo de los tiempos de la institución bancaria.</li>
                 </ul>
 
-                <p><strong>6. EXCEPCIÓN POR FALLAS EN EL SERVICIO</strong></p>
-
-                <p>
-                    Si se presenta una falla técnica atribuible directamente a JUSTNET que imposibilite el uso del servicio contratado por un periodo prolongado, la Empresa podrá otorgar, a su criterio:
-                </p>
-
+                <h2>6. EXCEPCIÓN POR FALLAS EN EL SERVICIO</h2>
+                <p>Si se presenta una falla técnica atribuible directamente a JUSTNET que imposibilite el uso del servicio contratado por un periodo prolongado, la Empresa podrá otorgar, a su criterio:</p>
                 <ul>
                     <li>Un ajuste proporcional en la renovación.</li>
                     <li>Una nota de crédito para servicios futuros.</li>
-                    <li>
-                        Un reembolso parcial o total, únicamente en casos extraordinarios.
-                    </li>
+                    <li>Un reembolso parcial o total, únicamente en casos extraordinarios.</li>
                 </ul>
 
-                <p><strong>7. CONTACTO</strong></p>
-
+                <h2>7. CONTACTO</h2>
                 <p>Para cualquier duda o solicitud relacionada con esta Política:</p>
-
                 <ul>
-                    <li>
-                        <a href="mailto:contacto@jusnet.com.mx" title="mailto:contacto@jusnet.com.mx">
-                            <strong>contacto@jusnet.com.mx</strong>
-                        </a>
-                    </li>
-                    <li><strong>jusnet.com.mx</strong></li>
+                    <li>contacto@jusnet.com.mx</li>
+                    <li>jusnet.com.mx</li>
                 </ul>
-
             </section>
         </div>
     );
@@ -194,179 +108,92 @@ function LegalEn() {
             <LegalStyle />
 
             <section>
-                <h1 id="refund-and-return-policy"><strong>Refund and Return Policy</strong></h1>
+                <h1>Returns and Refunds Policy</h1>
+                <p>BOTTLENECK CART, S.A. DE C.V. (JUSTNET)</p>
 
-                <p><strong>BOTTLENECK CART, S.A. DE C.V. (<strong>JUSTNET</strong>)</strong></p>
+                <h2>1. GENERAL PROVISIONS</h2>
+                <p>This Policy regulates the conditions for cancellation and refund requests applicable to the services, products and SaaS platforms provided by BOTTLENECK CART, S.A. DE C.V. (“JUSTNET” or “the Company”), in accordance with the Terms and Conditions accepted by the User.</p>
+                <p>By contracting, using or accessing JUSTNET's services, the User acknowledges having read and accepted this Policy.</p>
 
-                <p><strong>1. GENERAL PROVISIONS</strong></p>
-
-                <p>
-                    This Policy governs the conditions for cancellation and refund requests applicable to the services, products, and SaaS platforms provided by <strong>BOTTLENECK CART, S.A. DE C.V.</strong> (“JUSTNET” or “the Company”), in accordance with the Terms and Conditions accepted by the User.
-                </p>
-
-                <p>
-                    By contracting, using, or accessing the services of JUSTNET, the User acknowledges having read and accepted this Policy.
-                </p>
-
-                <p><strong>2. CANCELLATIONS</strong></p>
-
-                <p><strong>2.1. Cancellation Request</strong></p>
-
-                <p>
-                    Cancellation requests must be submitted in writing to:
-                    <strong>contacto@jusnet.com.mx</strong>
-                </p>
-
+                <h2>2. ABOUT CANCELLATIONS</h2>
+                <p>2.1. Cancellation Request</p>
+                <p>Cancellation requests must be sent in writing to the email: contacto@jusnet.com.mx</p>
                 <p>The request must include:</p>
-
                 <ul>
-                    <li>User’s Name</li>
-                    <li>Contracted service or package</li>
-                    <li>Contract date</li>
+                    <li>User's name</li>
+                    <li>Service or package contracted</li>
+                    <li>Date of contracting</li>
                     <li>Reason for cancellation</li>
                 </ul>
-
-                <p>
-                    JUSTNET will review each request on a case-by-case basis and communicate its resolution to the User.
-                </p>
-
-                <p><strong>2.2. Recurring Service Cancellations</strong></p>
-
-                <p>For subscription-based or recurring payment services:</p>
-
+                <p>JUSTNET will analyze each request on a case-by-case basis and will communicate its resolution to the User.</p>
+                <p>2.2. Cancellations of Recurring Services</p>
+                <p>In services with a subscription or recurring payment modality:</p>
                 <ul>
-                    <li>The cancellation <strong>does not exempt</strong> the User from paying previously generated or invoiced charges.</li>
-                    <li>
-                        To avoid the next billing cycle, the cancellation request must be submitted
-                        <strong>before the renewal date</strong>
-                        published or indicated in the quotation.
-                    </li>
+                    <li>Cancellation does not exempt the User from covering payments previously generated or invoiced.</li>
+                    <li>To avoid the next billing cycle, cancellation must be requested before the renewal date published or indicated in the quotation.</li>
+                </ul>
+                <p>2.3. Effect of Cancellation</p>
+                <p>Upon confirmation of the cancellation:</p>
+                <ul>
+                    <li>The User's access to the platform or service will be disabled.</li>
+                    <li>Integrations, automations, dashboards or configurations will not be retained, unless there is a written agreement for their safekeeping.</li>
                 </ul>
 
-                <p><strong>2.3. Effect of Cancellation</strong></p>
-
-                <p>Once the cancellation is confirmed:</p>
-
+                <h2>3. REFUNDS</h2>
+                <p>3.1. General Policy</p>
+                <p>As a general rule, JUSTNET does not offer refunds, unless:</p>
                 <ul>
-                    <li>The User’s access to the platform or service will be disabled.</li>
-                    <li>
-                        Integrations, automations, dashboards, or configurations will not be retained,
-                        unless there is a written agreement for their preservation.
-                    </li>
+                    <li>The service has not been provided in accordance with what was offered, and</li>
+                    <li>After JUSTNET's internal evaluation, it is determined that the User is entitled to a refund.</li>
+                </ul>
+                <p>Refunds do not apply for:</p>
+                <ul>
+                    <li>Errors by the User in providing information.</li>
+                    <li>Lack of interest, time, use or knowledge of the platform's operation.</li>
+                    <li>Problems originating from services or providers external to JUSTNET.</li>
+                    <li>Lack of results derived from misuse, incomplete use or interpretation of data, dashboards or predictions.</li>
+                </ul>
+                <p>3.2. Personalized or Custom Services</p>
+                <p>The following are not refundable:</p>
+                <ul>
+                    <li>Development of personalized dashboards.</li>
+                    <li>Custom-made predictive models.</li>
+                    <li>Personalized consulting, integrations or automations.</li>
+                    <li>Specific design, configuration or parameterization requested by the User.</li>
+                </ul>
+                <p>3.3. Subscription Services</p>
+                <p>No partial or proportional refunds are made for unused months, weeks or days.</p>
+                <p>If the User cancels before the end of the contracted period, access will be suspended, but no refund will be made.</p>
+
+                <h2>4. REFUND PROCEDURE (WHEN APPLICABLE)</h2>
+                <p>In exceptional cases where JUSTNET determines that a refund is appropriate:</p>
+                <ol>
+                    <li>The Company will notify the refund approval by email.</li>
+                    <li>The process will be carried out using the same payment method used.</li>
+                    <li>The time for the refund to be reflected will depend on the bank or card-issuing institution.</li>
+                    <li>JUSTNET only processes the refund; the reflection of the money in the User's account is subject to the timelines of the banking institution.</li>
+                </ol>
+
+                <h2>5. PROCESSING TIMES</h2>
+                <ul>
+                    <li>JUSTNET will confirm receipt of the request within 24 business hours.</li>
+                    <li>Once the request is approved, the refund will be processed within 15 to 30 business days, depending on the timelines of the banking institution.</li>
                 </ul>
 
-                <p><strong>3. REFUNDS</strong></p>
-
-                <p><strong>3.1. General Policy</strong></p>
-
-                <p>
-                    As a general rule, <strong>JUSTNET does not offer refunds</strong>, except when:
-                </p>
-
+                <h2>6. EXCEPTION FOR SERVICE FAILURES</h2>
+                <p>If there is a technical failure directly attributable to JUSTNET that makes it impossible to use the contracted service for a prolonged period, the Company may grant, at its discretion:</p>
                 <ul>
-                    <li>The service was not provided as offered.</li>
-                    <li>
-                        After JUSTNET’s internal evaluation, it is determined that the User is entitled to a refund.
-                    </li>
-                </ul>
-
-                <p>Refunds will not apply in cases of:</p>
-
-                <ul>
-                    <li>User errors when providing information.</li>
-                    <li>Lack of interest, time, use, or understanding of the platform’s operation.</li>
-                    <li>Problems caused by external services or providers unrelated to JUSTNET.</li>
-                    <li>
-                        Lack of results derived from misuse, incomplete use, or interpretation of data,
-                        dashboards, or predictions.
-                    </li>
-                </ul>
-
-                <p><strong>3.2. Customized or Tailored Services</strong></p>
-
-                <p>The following are non-refundable:</p>
-
-                <ul>
-                    <li>Development of customized dashboards.</li>
-                    <li>Custom predictive models.</li>
-                    <li>Customized consulting, integrations, or automations.</li>
-                    <li>Specific design, configuration, or parameterization requested by the User.</li>
-                </ul>
-
-                <p><strong>3.3. Subscription Services</strong></p>
-
-                <p>
-                    Partial or proportional refunds for unused months, weeks, or days are not provided.
-                </p>
-
-                <p>
-                    If the User cancels before the contracted period ends,
-                    <strong>access will be suspended</strong>,
-                    but no refund will be issued.
-                </p>
-
-                <p><strong>4. REFUND PROCEDURE (WHEN APPLICABLE)</strong></p>
-
-                <p>
-                    In exceptional cases where JUSTNET determines that a refund applies:
-                </p>
-
-                <ul>
-                    <li>The Company will notify the User by email of the refund approval.</li>
-                    <li>The process will be carried out using the same payment method originally used.</li>
-                    <li>
-                        The time required for the refund to appear will depend on the bank or card issuer.
-                    </li>
-                    <li>
-                        JUSTNET only processes the refund;
-                        <strong>
-                            the reflection of funds in the User’s account is subject to the banking institution’s processing times
-                        </strong>.
-                    </li>
-                </ul>
-
-                <p><strong>5. PROCESSING TIMES</strong></p>
-
-                <ul>
-                    <li>
-                        JUSTNET will confirm receipt of the request within
-                        <strong>24 business hours</strong>.
-                    </li>
-                    <li>
-                        Once the request is approved, the refund will be processed within
-                        <strong>15 to 30 business days</strong>,
-                        depending on the banking institution’s processing times.
-                    </li>
-                </ul>
-
-                <p><strong>6. EXCEPTION FOR SERVICE FAILURES</strong></p>
-
-                <p>
-                    If a technical failure directly attributable to JUSTNET occurs and prevents the use of the contracted service for an extended period, the Company may, at its discretion, provide:
-                </p>
-
-                <ul>
-                    <li>A proportional adjustment on renewal.</li>
+                    <li>A proportional adjustment in the renewal.</li>
                     <li>A credit note for future services.</li>
-                    <li>
-                        A partial or full refund, only in extraordinary cases.
-                    </li>
+                    <li>A partial or total refund, only in extraordinary cases.</li>
                 </ul>
 
-                <p><strong>7. CONTACT</strong></p>
-
-                <p>For any questions or requests related to this Policy:</p>
-
+                <h2>7. CONTACT</h2>
+                <p>For any question or request related to this Policy:</p>
                 <ul>
-                    <li>
-                        <a href="mailto:contacto@jusnet.com.mx" title="mailto:contacto@jusnet.com.mx">
-                            <strong>contacto@jusnet.com.mx</strong>
-                        </a>
-                    </li>
-                    <li><strong>jusnet.com.mx</strong></li>
+                    <li>contacto@jusnet.com.mx</li>
+                    <li>jusnet.com.mx</li>
                 </ul>
-
-
             </section>
         </div>
     );

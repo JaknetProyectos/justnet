@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Variables de configuración
 const COMPANY_EMAIL = "contacto@jusnet.com.mx";
-const COMPANY_SENDER = "Justnet <contacto@jusnet.com.mx>";
+const COMPANY_SENDER = "Jusnet <contacto@jusnet.com.mx>";
 const BANNER_URL = "https://jusnet.com.mx/email.png";
 
 export async function POST(req: NextRequest) {
@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
         <div style="font-family: system-ui, sans-serif; background-color: #f9fafb; padding: 40px 20px;">
           <div style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e5e7eb;">
             
-            <img src="${BANNER_URL}" alt="Justnet Banner" style="width: 100%; height: auto; display: block;" />
+            <img src="${BANNER_URL}" alt="Jusnet Banner" style="width: 100%; height: auto; display: block;" />
 
             <div style="padding: 32px;">
               <h1 style="margin: 0 0 16px; color: #111827; font-size: 24px;">${t("confirmationTitle")}</h1>
@@ -125,7 +125,7 @@ export async function POST(req: NextRequest) {
         <div style="font-family: system-ui, sans-serif; background-color: #f3f4f6; padding: 40px 20px;">
           <div style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e5e7eb;">
             
-            <img src="${BANNER_URL}" alt="Justnet Banner" style="width: 100%; height: auto; display: block;" />
+            <img src="${BANNER_URL}" alt="Jusnet Banner" style="width: 100%; height: auto; display: block;" />
 
             <div style="padding: 32px;">
               <p style="margin: 0 0 8px; color: #000000; font-size: 12px; font-weight: 800; text-transform: uppercase;">${t("businessHeaderTag")}</p>

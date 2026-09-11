@@ -1,404 +1,404 @@
 {
   "Header": {
-    "home": "Inicio",
-    "about": "Nosotros",
-    "services": "Servicios",
-    "contact": "Contacto",
-    "openCart": "Abrir carrito",
-    "openMenu": "Abrir menú"
+    "home": "Principal",
+    "about": "Quiénes somos",
+    "services": "Nuestra oferta",
+    "contact": "Escríbenos",
+    "openCart": "Ver carrito",
+    "openMenu": "Desplegar menú"
   },
   "cart": {
-    "couponTitle": "Cupón de descuento",
-    "couponPlaceholder": "Ingresa tu código",
-    "applyCoupon": "Aplicar",
-    "couponApplied": "Cupón aplicado",
-    "couponEmpty": "Ingresa un código de cupón",
-    "invalidCoupon": "El cupón no es válido",
-    "appliedCoupon": "Cupón activo:",
-    "discount": "Descuento",
+    "couponTitle": "Código promocional",
+    "couponPlaceholder": "Ingresa la clave",
+    "applyCoupon": "Canjear",
+    "couponApplied": "Código añadido",
+    "couponEmpty": "Por favor escribe un código",
+    "invalidCoupon": "Este cupón no es válido",
+    "appliedCoupon": "Promoción vigente:",
+    "discount": "Rebaja",
     "vatLabel": "IVA (16%)",
-    "subtotalBeforeVat": "Subtotal",
-    "beforeVat": "antes de IVA",
-    "badge": "Justnet Checkout",
-    "title": "Revisa tu pedido y completa el pago.",
-    "stepCart": "Carrito",
-    "stepPayment": "Pago",
-    "emptyTitle": "Tu carrito está vacío",
-    "emptyDescription": "Agrega un servicio para continuar con la compra.",
-    "viewServices": "Ver servicios",
-    "cartItems": "Items del carrito",
-    "paymentData": "Datos de pago",
-    "cartDescription": "Confirma los servicios antes de continuar al checkout.",
-    "paymentDescription": "Completa tus datos de facturación y pago para finalizar.",
-    "quantity": "Cantidad",
-    "subtotal": "Subtotal",
-    "vatIncluded": "+ IVA",
-    "continueCheckout": "Proceder a la compra",
-    "continueShopping": "Seguir comprando",
-    "firstName": "Nombre",
-    "lastName": "Apellido",
-    "email": "Correo electrónico",
-    "phone": "Teléfono",
-    "city": "Ciudad",
-    "state": "Estado",
-    "address": "Dirección",
-    "postalCode": "Código postal",
-    "country": "País",
-    "cardData": "Datos de tarjeta",
-    "cardholderName": "Nombre del titular",
-    "cardNumber": "Número de tarjeta",
-    "month": "Mes",
-    "year": "Año",
-    "cvv": "CVV",
-    "backToCart": "Volver al carrito",
-    "payNow": "Pagar ahora",
-    "processingPayment": "Procesando pago...",
-    "paymentRejected": "Pago rechazado",
-    "paymentSuccess": "Pago aprobado. Tu compra quedó registrada correctamente.",
-    "unknownPaymentError": "Error desconocido al procesar el pago",
-    "summary": "Resumen",
-    "currentOrder": "Pedido actual",
-    "services": "Servicios",
-    "units": "Unidades",
-    "yes": "Sí",
-    "total": "Total",
-    "secureDescription": "Pago seguro con procesamiento automatizado. Revisa los datos antes de confirmar."
+    "subtotalBeforeVat": "Importe parcial",
+    "beforeVat": "sin IVA",
+    "badge": "Pago en Jusnet",
+    "title": "Verifica tu orden y realiza el pago.",
+    "stepCart": "Cesta",
+    "stepPayment": "Facturación",
+    "emptyTitle": "Tu cesta está vacía",
+    "emptyDescription": "Añade algún servicio para efectuar tu compra.",
+    "viewServices": "Explorar catálogo",
+    "cartItems": "Artículos seleccionados",
+    "paymentData": "Información de pago",
+    "cartDescription": "Valida las opciones antes de ir a la pasarela.",
+    "paymentDescription": "Ingresa tus datos bancarios y de facturación para conclur.",
+    "quantity": "Unidades",
+    "subtotal": "Suma parcial",
+    "vatIncluded": "+ impuestos",
+    "continueCheckout": "Ir a pagar",
+    "continueShopping": "Añadir más productos",
+    "firstName": "Nombre(s)",
+    "lastName": "Apellidos",
+    "email": "Correo de contacto",
+    "phone": "Línea telefónica",
+    "city": "Localidad",
+    "state": "Provincia / Estado",
+    "address": "Calle y número",
+    "postalCode": "C.P.",
+    "country": "Nación",
+    "cardData": "Detalles de la tarjeta",
+    "cardholderName": "Titular de la tarjeta",
+    "cardNumber": "Dígitos del plástico",
+    "month": "Mes de exp.",
+    "year": "Año de exp.",
+    "cvv": "Código de seguridad",
+    "backToCart": "Regresar al carrito",
+    "payNow": "Efectuar pago",
+    "processingPayment": "Validando transacción...",
+    "paymentRejected": "Transacción declinada",
+    "paymentSuccess": "Pago recibido con éxito. Registramos tu orden correctamente.",
+    "unknownPaymentError": "Fallo imprevisto durante el procesamiento del pago",
+    "summary": "Detalle",
+    "currentOrder": "Solicitud actual",
+    "services": "Soluciones",
+    "units": "Piezas",
+    "yes": "De acuerdo",
+    "total": "Monto total",
+    "secureDescription": "Proceso protegido e interacciones automatizadas. Confirma los campos antes de enviar."
   },
   "contact": {
     "alerts": {
-      "errorTitle": "Error",
-      "defaultError": "Ocurrió un error al enviar el formulario"
+      "errorTitle": "Fallo",
+      "defaultError": "No se pudo procesar la solicitud del formulario"
     },
     "hero": {
-      "badge": "Contacto",
-      "title": "Hablemos sobre tu proyecto.",
-      "description": "Creamos soluciones de Business Intelligence claras, modernas y listas para ayudarte a tomar mejores decisiones."
+      "badge": "Atención personalizada",
+      "title": "Platiquemos sobre tu iniciativa.",
+      "description": "Desarrollamos soluciones integrales de Business Intelligence visuales, modernas y orientadas a la optimización de decisiones."
     },
     "info": {
-      "title": "Información",
-      "subtitle": "Estamos listos para ayudarte.",
+      "title": "Contacto directo",
+      "subtitle": "Estamos a tu disposición.",
       "phone": "Teléfono",
-      "email": "Correo",
-      "office": "Oficina",
+      "email": "Correo electrónico",
+      "office": "Ubicación",
       "address": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México."
     },
     "custom": {
-      "title": "Solución personalizada",
-      "description": "Diseñamos dashboards, automatizaciones y análisis adaptados a las necesidades reales de tu negocio.",
-      "button": "Pagar servicio personalizado"
+      "title": "Planes a medida",
+      "description": "Elaboramos tableros de control, procesos automatizados e informes avanzados ajustados a tu modelo operativo.",
+      "button": "Pagar desarrollo a la medida"
     },
     "form": {
-      "title": "Escríbenos",
-      "subtitle": "Responderemos lo antes posible.",
-      "sending": "Enviando...",
-      "submit": "Enviar mensaje",
+      "title": "Contáctanos",
+      "subtitle": "Te responderemos a la brevedad.",
+      "sending": "Procesando envío...",
+      "submit": "Enviar solicitud",
       "fields": {
-        "name": "Nombre",
-        "email": "Correo electrónico",
-        "phone": "Teléfono",
-        "subject": "Asunto",
-        "message": "Mensaje"
+        "name": "Nombre completo",
+        "email": "Dirección de correo",
+        "phone": "Número telefónico",
+        "subject": "Motivo",
+        "message": "Comentario"
       },
       "placeholders": {
-        "name": "Tu nombre",
-        "email": "correo@empresa.com",
+        "name": "Escribe tu nombre",
+        "email": "contacto@tuempresa.com",
         "phone": "+52 55 0000 0000",
-        "subject": "¿Cómo podemos ayudarte?",
-        "message": "Cuéntanos sobre tu proyecto..."
+        "subject": "¿En qué podemos apoyarte?",
+        "message": "Escribe los detalles de tu requerimiento..."
       }
     },
     "success": {
-      "title": "¡Mensaje enviado!",
-      "description": "Gracias por contactarnos. Nuestro equipo te responderá muy pronto.",
-      "button": "Enviar otro mensaje"
+      "title": "¡Envío exitoso!",
+      "description": "Agradecemos tu mensaje. Un asesor te contactará en breve.",
+      "button": "Mandar una nueva consulta"
     }
   },
   "about": {
     "metadata": {
-      "title": "Nosotros - Justnet",
-      "description": "Conoce al equipo de Justnet, especialistas en Business Intelligence y análisis de datos."
+      "title": "Sobre Jusnet",
+      "description": "Descubre al equipo tras Jusnet, consultores dedicados a Business Intelligence y la analítica corporativa."
     },
     "hero": {
-      "badge": "Sobre Justnet",
-      "title": "Impulsando decisiones inteligentes con datos claros.",
-      "description": "Somos un equipo especializado en Business Intelligence, automatización y análisis estratégico enfocado en transformar información compleja en herramientas útiles para crecer.",
+      "badge": "Conoce Jusnet",
+      "title": "Facilitamos decisiones acertadas mediante análisis claro de información.",
+      "description": "Conformamos un grupo de expertos en Inteligencia de Negocios, automatización e intelecto estratégico para convertir cifras complejas en palancas de crecimiento.",
       "tags": {
-        "bi": "Business Intelligence",
-        "integration": "Integración de datos"
+        "bi": "Inteligencia de Negocios",
+        "integration": "Consolidación de datos"
       },
-      "imageAlt": "Equipo trabajando",
-      "cardSubtitle": "Soluciones profesionales",
-      "cardTitle": "BI + Automatización"
+      "imageAlt": "Especialistas colaborando",
+      "cardSubtitle": "Servicios especializados",
+      "cardTitle": "BI y Automatización"
     },
     "approach": {
-      "title": "Nuestro enfoque",
-      "description": "Diseñamos dashboards, automatizaciones y estructuras de datos orientadas a resultados reales. Nuestro objetivo es ayudarte a visualizar información importante de forma clara, ordenada y útil para la toma de decisiones estratégicas."
+      "title": "Metodología",
+      "description": "Estructuramos tableros, flujos automatizados y modelos analíticos para entregar resultados tangibles. Nos enfocamos en presentar datos valiosos de forma transparente, estructurada y ejecutable para la gestión estratégica."
     },
     "commitment": {
-      "title": "Nuestro compromiso",
-      "description": "Trabajamos para que cada cliente tenga acceso a información precisa, organizada y accionable. Buscamos crear soluciones que impulsen crecimiento, eficiencia y claridad operativa.",
-      "highlight": "Precisión, estrategia y claridad."
+      "title": "Misión corporativa",
+      "description": "Trabajamos para proveer a cada cliente datos veraces, ordenados y listos para la acción. Desarrollamos herramientas que potencian la competitividad, la eficiencia y el control.",
+      "highlight": "Exactitud, visión estratégica y transparencia."
     },
     "pillars": {
-      "title": "Cómo trabajamos",
-      "description": "Soluciones modernas enfocadas en organización, análisis y visualización estratégica de información.",
+      "title": "Nuestra forma de trabajo",
+      "description": "Estrategias de vanguardia dirigidas al ordenamiento, interpretación y despliegue gráfico de la información.",
       "items": {
         "dashboard": {
-          "title": "Dashboards claros",
-          "description": "Creamos visualizaciones intuitivas enfocadas en métricas realmente importantes."
+          "title": "Paneles intuitivos",
+          "description": "Proyectamos reportes gráficos enfocados primordialmente en tus indicadores centrales."
         },
         "data": {
-          "title": "Datos organizados",
-          "description": "Integramos y estructuramos información para mejorar la toma de decisiones."
+          "title": "Información estructurada",
+          "description": "Centralizamos y organizamos tus bases para facilitar decisiones acertadas."
         },
         "analysis": {
-          "title": "Análisis estratégico",
-          "description": "Transformamos datos complejos en oportunidades accionables para tu negocio."
+          "title": "Analítica de negocio",
+          "description": "Convertimos registros complejos en oportunidades prácticas de desarrollo para tu firma."
         },
         "security": {
-          "title": "Precisión y confianza",
-          "description": "Validamos y optimizamos la información para mantener consistencia en cada reporte."
+          "title": "Fiabilidad total",
+          "description": "Auditamos y pulimos la información para garantizar uniformidad en cada reporte."
         }
       }
     }
   },
   "customService": {
-    "badge": "Servicio personalizado",
-    "title": "Confirma y paga tu solución personalizada.",
-    "description": "Agrega el servicio acordado con tu cotización y continúa el proceso directamente desde el carrito.",
-    "cartItemTitle": "Justnet Personalizado",
+    "badge": "Servicio sobre diseño",
+    "title": "Valida y salda tu solución ajustada.",
+    "description": "Ingresa el plan negociado en tu presupuesto y realiza el proceso mediante nuestra plataforma.",
+    "cartItemTitle": "Jusnet A la Medida",
     "features": {
-      "securePayment": "Pago seguro",
-      "businessService": "Servicio empresarial"
+      "securePayment": "Transacción cifrada",
+      "businessService": "Solución corporativa"
     },
     "form": {
-      "title": "Datos de la cotización",
-      "description": "Completa la información para agregar el servicio personalizado al carrito.",
-      "name": "Nombre",
-      "namePlaceholder": "Tu nombre",
-      "email": "Correo electrónico",
-      "emailPlaceholder": "correo@empresa.com",
-      "quoteId": "ID de cotización",
+      "title": "Referencia del presupuesto",
+      "description": "Proporciona tus datos para integrar la cotización especial al carrito.",
+      "name": "Nombre completo",
+      "namePlaceholder": "Escribe tu nombre",
+      "email": "Correo corporativo",
+      "emailPlaceholder": "contacto@tuempresa.com",
+      "quoteId": "Código de presupuesto",
       "quoteIdPlaceholder": "Ej. BI-2026-001",
-      "amount": "Monto",
-      "estimatedTotal": "Total estimado",
-      "addToCart": "Agregar al carrito"
+      "amount": "Monto acordado",
+      "estimatedTotal": "Cálculo total",
+      "addToCart": "Mover al carrito"
     },
     "sideCard": {
-      "title": "Pago personalizado",
-      "description": "Este espacio está diseñado para clientes con cotizaciones personalizadas previamente acordadas con Justnet.",
-      "identifier": "Identificador",
-      "pending": "Pendiente",
-      "amount": "Monto",
-      "undefined": "Sin definir"
+      "title": "Pago por presupuesto",
+      "description": "Módulo destinado a usuarios con propuestas previas pactadas con el equipo de Jusnet.",
+      "identifier": "Folio",
+      "pending": "En espera",
+      "amount": "Precio",
+      "undefined": "Pendiente de definir"
     },
     "alerts": {
-      "warningTitle": "Advertencia",
-      "completeFields": "Completa todos los campos"
+      "warningTitle": "Aviso",
+      "completeFields": "Rellena los requisitos solicitados"
     }
   },
   "servicesPage": {
     "taxesIncluded": "+ IVA",
     "hero": {
-      "badge": "Servicios",
-      "title": "Soluciones modernas para datos y negocio.",
-      "description": "Explora servicios especializados en Business Intelligence, automatización y análisis estratégico para impulsar decisiones inteligentes."
+      "badge": "Planes",
+      "title": "Estrategias dinámicas para la analítica empresarial.",
+      "description": "Revisa nuestra oferta en Inteligencia de Negocios, automatización y métricas clave preparadas para agilizar tu toma de decisiones."
     },
     "categories": {
-      "available": "servicios disponibles",
+      "available": "opciones disponibles",
       "data": {
-        "name": "Paquetes de datos",
-        "description": "Dashboards, automatización y analítica avanzada para empresas."
+        "name": "Módulos de datos",
+        "description": "Dashboards integrales, automatizaciones y análisis de profundidad corporativa."
       },
       "single": {
-        "name": "Servicios individuales",
-        "description": "Soluciones específicas para necesidades puntuales de negocio."
+        "name": "Módulos individuales",
+        "description": "Herramientas puntuales dirigidas a requerimientos específicos."
       }
     },
     "catalog": {
-      "badge": "Catálogo",
-      "description": "Servicios diseñados para conectar, organizar y visualizar la información más importante de tu negocio.",
-      "availableLabel": "Servicios disponibles",
+      "badge": "Portafolio",
+      "description": "Propuestas orientadas a enlazar, sistematizar y proyectar los indicadores críticos de tu organización.",
+      "availableLabel": "Planes a tu disposición",
       "vatIncluded": "+ IVA",
-      "ready": "Servicio listo para implementar",
-      "finalPrice": "Precio final",
-      "addToCart": "Agregar"
+      "ready": "Servicio listo para implementación",
+      "finalPrice": "Costo total",
+      "addToCart": "Seleccionar"
     },
     "cta": {
-      "title": "¿Necesitas una solución personalizada?",
-      "description": "Diseñamos dashboards, automatizaciones y análisis adaptados a la estructura y objetivos reales de tu negocio.",
-      "button": "Contactar ahora"
+      "title": "¿Requieres una propuesta a tu medida?",
+      "description": "Construimos páneles visuales, automatizaciones y reportes ajustados al esquema y metas de tu compañía.",
+      "button": "Solicitar asesoría"
     }
   },
   "homeAbout": {
-    "badge": "Sobre nosotros",
-    "title": "Datos claros.<br></br>Decisiones más inteligentes.",
-    "description": "En Justnet ayudamos a empresas a transformar información dispersa en dashboards modernos, métricas claras y análisis accionables.",
-    "imageAlt": "Dashboard analytics",
+    "badge": "Nuestra identidad",
+    "title": "Información clara.<br></br>Estrategias acertadas.",
+    "description": "En Jusnet asistimos a las empresas a canalizar datos dispersos hacia tableros modernos, métricas comprensibles e insights de negocio.",
+    "imageAlt": "Análisis de métricas",
     "features": {
       "integration": {
-        "title": "Integración de datos",
-        "description": "Conectamos múltiples fuentes de información en un solo lugar."
+        "title": "Consolidación de fuentes",
+        "description": "Unificamos diversos orígenes de información en una plataforma central."
       },
       "visualization": {
-        "title": "Visualización inteligente",
-        "description": "Diseñamos dashboards simples, modernos y fáciles de interpretar."
+        "title": "Visualización intuitiva",
+        "description": "Elaboramos reportes legibles, dinámicos y de rápida lectura."
       }
     },
     "floatingCard": {
-      "label": "Business Intelligence",
-      "title": "Moderno & Simple"
+      "label": "Inteligencia de Negocios",
+      "title": "Ágil & Claro"
     }
   },
   "homeFeatures": {
     "items": {
       "custom": {
-        "title": "Soluciones a la medida",
-        "description": "Adaptamos cada dashboard y reporte a la realidad, objetivos y métricas clave de tu empresa."
+        "title": "Soluciones adaptables",
+        "description": "Sintonizamos cada tablero y reporte al entorno, prioridades e indicadores de tu firma."
       },
       "precision": {
-        "title": "Precisión en los datos",
-        "description": "Estandarizamos, limpiamos y validamos la información para que puedas confiar en cada indicador."
+        "title": "Integridad analítica",
+        "description": "Depuramos, normalizamos y auditamos la información para garantizar certidumbre en cada reporte."
       }
     }
   },
   "hero": {
     "badge": "Business Intelligence + IA",
-    "title": "Convierte\ntus datos\nen decisiones\ninteligentes.",
-    "description": "Dashboards modernos, análisis estadístico, automatización y herramientas de inteligencia de negocio diseñadas para empresas que quieren crecer con claridad.",
-    "primaryButton": "Explorar servicios",
-    "secondaryButton": "Contactar",
-    "dashboardLabel": "Resumen del dashboard",
-    "dashboardTitle": "Métricas de negocio",
+    "title": "Transforma\ntus registros\nen acciones\nestratégicas.",
+    "description": "Paneles ejecutivos, estadística avanzada, procesamiento automático y plataformas analíticas pensadas para negocios orientados al crecimiento sostenible.",
+    "primaryButton": "Ver catálogo",
+    "secondaryButton": "Escríbenos",
+    "dashboardLabel": "Panel consolidado",
+    "dashboardTitle": "Indicadores de rendimiento",
     "stats": {
-      "revenue": "Ingresos",
-      "conversion": "Conversión"
+      "revenue": "Facturación",
+      "conversion": "Rendimiento"
     }
   },
   "servicesSection": {
-    "badge": "Servicios",
-    "title": "Soluciones modernas<br></br>para empresas<br></br>impulsadas por datos.",
-    "description": "Dashboards, automatización, análisis y<br></br>herramientas inteligentes para tomar<br></br>mejores decisiones.",
-    "viewAll": "Ver todos",
+    "badge": "Soluciones",
+    "title": "Estrategias avanzadas<br></br>para organizaciones<br></br>basadas en información.",
+    "description": "Dashboards, integraciones, reporteo y<br></br>módulos analíticos para facilitar<br></br>decisiones informadas.",
+    "viewAll": "Explorar todo",
     "taxesIncluded": "+ IVA",
-    "add": "Agregar"
+    "add": "Elegir"
   },
   "home": {
     "process": {
-      "badge": "Proceso",
-      "title": "Cómo funciona<br></br>Justnet.",
-      "description": "Un proceso simple, moderno y enfocado en transformar datos en decisiones claras.",
-      "connectDataTitle": "Conectamos tus datos",
-      "connectDataDescription": "Integramos tus fuentes en un solo lugar: ventas, marketing, CRM y operaciones.",
-      "cleanDataTitle": "Limpiamos y organizamos la información",
-      "cleanDataDescription": "Estandarizamos métricas, validamos datos y creamos la estructura correcta.",
-      "buildDashboardsTitle": "Construimos tus dashboards",
-      "buildDashboardsDescription": "Diseñamos paneles visuales y claros con KPIs personalizados para tu negocio.",
-      "deliverySupportTitle": "Entrega y acompañamiento",
-      "deliverySupportDescription": "Recibes tus tableros listos para usar y soporte continuo para mejoras futuras."
+      "badge": "Esquema de trabajo",
+      "title": "El modelo<br></br>Jusnet.",
+      "description": "Un camino transparente, estructurado y orientado a generar valor mediante datos útiles.",
+      "connectDataTitle": "Conexión de orígenes",
+      "connectDataDescription": "Centralizamos tus bases operativas: ventas, mercadotecnia, gestores CRM y administración.",
+      "cleanDataTitle": "Depuración y organización",
+      "cleanDataDescription": "Estandarizamos los registros, verificamos la calidad y modelamos la estructura.",
+      "buildDashboardsTitle": "Desarrollo de tableros",
+      "buildDashboardsDescription": "Creamos páneles claros e interactivos alineados con tus KPIs clave.",
+      "deliverySupportTitle": "Implementación y seguimiento",
+      "deliverySupportDescription": "Obtienes tus páneles funcionales junto a un esquema de asesoría continua."
     },
     "helpSection": {
-      "badge": "Contacto",
-      "title": "¿Necesitas ayuda<br></br>con tus datos?",
-      "description": "Estamos listos para ayudarte a construir dashboards, automatizaciones y soluciones inteligentes para tu negocio.",
-      "phoneLabel": "Teléfono",
-      "emailLabel": "Correo electrónico",
-      "officeLabel": "Oficina",
+      "badge": "Atención",
+      "title": "¿Buscas optimizar<br></br>tus datos?",
+      "description": "Te acompañamos en el diseño de tableros, sistemas de automatización e infraestructura analítica para tu empresa.",
+      "phoneLabel": "Teléfono de contacto",
+      "emailLabel": "Dirección de correo",
+      "officeLabel": "Ubicación corporativa",
       "officeAddress": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México.",
-      "imageAlt": "Oficina Justnet",
-      "floatingCardTitle": "Hablemos de tu proyecto",
-      "floatingCardDescription": "Cuéntanos qué necesitas y diseñaremos una solución adaptada a tu empresa.",
-      "button": "Contáctanos"
+      "imageAlt": "Instalaciones de Jusnet",
+      "floatingCardTitle": "Cuéntanos tus requerimientos",
+      "floatingCardDescription": "Danos los detalles de tu proyecto y formularemos una propuesta personalizada.",
+      "button": "Hablar con un asesor"
     }
   },
   "footer": {
-    "description": "Soluciones modernas de Business Intelligence, dashboards y automatización para empresas impulsadas por datos.",
+    "description": "Servicios avanzados de Inteligencia de Negocios, generación de tableros y automatizaciones para firmas data-driven.",
     "address": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México.",
-    "navigation": "Navegación",
-    "legal": "Legal",
+    "navigation": "Menú",
+    "legal": "Términos legales",
     "privacyPolicy": "Política de privacidad",
     "termsConditions": "Términos y Condiciones",
     "refundPolicy": "Política de devoluciones y reembolsos",
-    "home": "Inicio",
+    "home": "Principal",
     "about": "Nosotros",
-    "services": "Servicios",
-    "contact": "Contacto",
-    "securePayments": "Pagos seguros",
-    "copyright": "© 2025 Justnet. Todos los derechos reservados.",
-    "bottomText": "Business Intelligence & Analytics"
+    "services": "Soluciones",
+    "contact": "Escríbenos",
+    "securePayments": "Pagos cifrados",
+    "copyright": "© 2025 Jusnet. Reservados todos los derechos.",
+    "bottomText": "Business Intelligence & Analítica"
   },
   "cartDrawer": {
-    "closeCart": "Cerrar carrito",
-    "title": "Carrito",
-    "singleService": "servicio",
-    "multipleServices": "servicios",
-    "emptyTitle": "Tu carrito está vacío",
-    "emptyDescription": "Agrega servicios para comenzar tu solución personalizada.",
-    "continueExploring": "Continuar explorando",
-    "removeFromCart": "Eliminar del carrito",
-    "decreaseQuantity": "Disminuir cantidad",
-    "increaseQuantity": "Aumentar cantidad",
+    "closeCart": "Ocultar carrito",
+    "title": "Tu pedido",
+    "singleService": "opción",
+    "multipleServices": "opciones",
+    "emptyTitle": "La cesta está vacía",
+    "emptyDescription": "Agrega requerimientos para configurar tu solución a la medida.",
+    "continueExploring": "Seguir navegando",
+    "removeFromCart": "Quitar del carrito",
+    "decreaseQuantity": "Reducir cantidad",
+    "increaseQuantity": "Incrementar cantidad",
     "vatIncluded": "+ IVA",
-    "estimatedTotal": "Total estimado",
-    "taxesIncluded": "Impuestos incluidos",
-    "checkout": "Finalizar compra",
-    "clearCart": "Vaciar carrito"
+    "estimatedTotal": "Monto previsto",
+    "taxesIncluded": "Cargos incluidos",
+    "checkout": "Pagar orden",
+    "clearCart": "Vaciar la cesta"
   },
   "serviceModal": {
-    "back": "Regresar",
-    "professionalService": "Servicio Profesional",
+    "back": "Volver",
+    "professionalService": "Servicio Especializado",
     "taxIncluded": "+ IVA",
-    "quantity": "Cantidad",
-    "estimatedTotal": "Total estimado",
-    "serviceSingular": "servicio",
-    "servicePlural": "servicios",
-    "addToCart": "Agregar al carrito",
-    "cancel": "Cancelar",
-    "brand": "Justnet"
+    "quantity": "Piezas",
+    "estimatedTotal": "Importe total",
+    "serviceSingular": "plan",
+    "servicePlural": "planes",
+    "addToCart": "Agregar a la cesta",
+    "cancel": "Descartar",
+    "brand": "Jusnet"
   },
   "Emails": {
     "contactEmail": {
-      "errorMissingFields": "Faltan campos obligatorios",
-      "businessSubject": "Nuevo lead: {asunto}",
-      "businessHeaderTitle": "Nuevo Contacto",
-      "clientDataTitle": "Datos del cliente",
-      "labelEmail": "Email:",
+      "errorMissingFields": "Falta completar datos requeridos",
+      "businessSubject": "Oportunidad de contacto: {asunto}",
+      "businessHeaderTitle": "Nueva Consulta",
+      "clientDataTitle": "Información del remitente",
+      "labelEmail": "Correo:",
       "labelPhone": "Teléfono:",
-      "notProvided": "No proporcionado",
-      "labelSubject": "Asunto:",
-      "labelMessage": "Mensaje",
-      "confirmationSubject": "Recibimos tu mensaje | Justnet",
-      "confirmationHeaderTitle": "¡Gracias por escribirnos!",
-      "confirmationGreeting": "Hola {nombre},",
-      "confirmationMessage": "Hemos recibido tu solicitud sobre \"{asunto}\". Nuestro equipo está revisando tu mensaje y nos pondremos en contacto contigo lo antes posible para ayudarte a escalar tu negocio.",
-      "confirmationYourMessage": "Tu Mensaje",
-      "brandSlogan": "Tecnología con visión de negocio",
-      "errorSubmit": "No se pudo enviar el formulario"
+      "notProvided": "Sin especificar",
+      "labelSubject": "Motivo:",
+      "labelMessage": "Detalle",
+      "confirmationSubject": "Confirmación de recepción | Jusnet",
+      "confirmationHeaderTitle": "¡Agradecemos tu comunicación!",
+      "confirmationGreeting": "Estimado/a {nombre},",
+      "confirmationMessage": "Hemos recibido tu consulta acerca de \"{asunto}\". Nuestro equipo evaluará los datos y se comunicará contigo rápidamente para potenciar tu organización.",
+      "confirmationYourMessage": "Tu Consulta",
+      "brandSlogan": "Tecnología con orientación estratégica",
+      "errorSubmit": "Hubo un problema al procesar la solicitud"
     },
     "checkoutEmail": {
-      "invalidAmount": "Monto inválido",
-      "customerEmailRequired": "Correo del cliente requerido",
-      "digitalService": "Servicio digital",
-      "confirmationSubject": "Confirmación de compra: {reference}",
-      "confirmationTitle": "¡Gracias por tu compra!",
-      "confirmationGreeting": "Hola {customerName}, tu pago ha sido procesado correctamente. Aquí tienes el resumen de tu pedido {reference}.",
-      "tableHeaderService": "Servicio",
+      "invalidAmount": "Monto erróneo",
+      "customerEmailRequired": "Es necesario el correo del comprador",
+      "digitalService": "Solución digital",
+      "confirmationSubject": "Recibo de compra: {reference}",
+      "confirmationTitle": "¡Agradecemos tu preferencia!",
+      "confirmationGreeting": "Hola {customerName}, tu pago fue procesado de manera exitosa. Presentamos el detalle correspondiente a la orden {reference}.",
+      "tableHeaderService": "Concepto",
       "tableHeaderQuantity": "Cant.",
-      "tableHeaderPrice": "Precio",
-      "totalPaid": "Total Pagado:",
-      "nextStepsTitle": "¿Qué sigue ahora?",
-      "nextStepsContent": "Nuestro equipo revisará tu pedido y comenzaremos a trabajar. Si necesitas agregar algo más, responde directamente a este correo.",
-      "footerText": "Justnet | Tecnología con visión de negocio",
-      "businessSubject": "Nuevo pedido recibido: {reference}",
-      "businessHeaderTag": "Nuevo Checkout",
-      "clientDataTitle": "Datos del cliente",
+      "tableHeaderPrice": "Importe",
+      "totalPaid": "Monto Abonado:",
+      "nextStepsTitle": "¿Cuáles son los siguientes pasos?",
+      "nextStepsContent": "Nuestro equipo coordinará el pedido para dar inicio al proyecto. Si deseas agregar detalles adicionales, puedes responder a este correo.",
+      "footerText": "Jusnet | Tecnología con orientación estratégica",
+      "businessSubject": "Se ha registrado un nuevo pedido: {reference}",
+      "businessHeaderTag": "Nueva Transacción",
+      "clientDataTitle": "Información del comprador",
       "labelName": "Nombre:",
-      "labelEmail": "Email:",
+      "labelEmail": "Correo:",
       "labelPhone": "Teléfono:",
-      "notProvided": "No proporcionado",
-      "totalToReceive": "Total a recibir:",
-      "successMessage": "Emails enviados correctamente",
-      "errorMessage": "Error al enviar los emails"
+      "notProvided": "Sin especificar",
+      "totalToReceive": "Importe neto a percibir:",
+      "successMessage": "Notificaciones enviadas de manera correcta",
+      "errorMessage": "Ocurrió un error en el despacho de correos"
     }
   }
 }

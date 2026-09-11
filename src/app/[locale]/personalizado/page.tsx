@@ -114,7 +114,7 @@ export default function CustomServicePage() {
                 src={getOptimizedUrl(
                   "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 )}
-                alt="Justnet"
+                alt="Jusnet"
                 className="w-full h-[280px] sm:h-[320px] object-cover rounded-2xl"
               />
             </div>

@@ -3,9 +3,9 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Justnet - Transforma tus datos en decisiones inteligentes",
+  title: "Jusnet - Transforma tus datos en decisiones inteligentes",
   description:
-    "Con Justnet obtienes dashboards claros, análisis precisos y herramientas que impulsan el crecimiento real de tu negocio. Soluciones de Business Intelligence a la medida.",
+    "Con Jusnet obtienes dashboards claros, análisis precisos y herramientas que impulsan el crecimiento real de tu negocio. Soluciones de Business Intelligence a la medida.",
   keywords: ["Business Intelligence", "BI", "Dashboards", "Análisis de datos", "México"],
 };
 

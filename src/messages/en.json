@@ -1,404 +1,404 @@
 {
   "Header": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "contact": "Contact",
-    "openCart": "Open cart",
-    "openMenu": "Open menu"
+    "home": "Main",
+    "about": "Who We Are",
+    "services": "Solutions",
+    "contact": "Get in Touch",
+    "openCart": "View cart",
+    "openMenu": "Expand menu"
   },
   "cart": {
-    "couponTitle": "Discount coupon",
-    "couponPlaceholder": "Enter your code",
-    "applyCoupon": "Apply",
-    "couponApplied": "Coupon applied",
-    "couponEmpty": "Enter a coupon code",
-    "invalidCoupon": "The coupon is not valid",
-    "appliedCoupon": "Active coupon:",
-    "discount": "Discount",
-    "vatLabel": "VAT (16%)",
-    "subtotalBeforeVat": "Subtotal",
-    "beforeVat": "before VAT",
-    "badge": "Justnet Checkout",
-    "title": "Review your order and complete payment.",
-    "stepCart": "Cart",
-    "stepPayment": "Payment",
-    "emptyTitle": "Your cart is empty",
-    "emptyDescription": "Add a service to continue with your purchase.",
-    "viewServices": "View services",
-    "cartItems": "Cart items",
-    "paymentData": "Payment details",
-    "cartDescription": "Confirm the services before continuing to checkout.",
-    "paymentDescription": "Complete your billing and payment information to finish.",
-    "quantity": "Quantity",
-    "subtotal": "Subtotal",
-    "vatIncluded": "+ VAT",
-    "continueCheckout": "Proceed to checkout",
-    "continueShopping": "Continue shopping",
-    "firstName": "First name",
-    "lastName": "Last name",
+    "couponTitle": "Promo code",
+    "couponPlaceholder": "Enter promo code",
+    "applyCoupon": "Redeem",
+    "couponApplied": "Voucher added",
+    "couponEmpty": "Please enter a promo code",
+    "invalidCoupon": "This code is invalid",
+    "appliedCoupon": "Active promo:",
+    "discount": "Savings",
+    "vatLabel": "Tax (16%)",
+    "subtotalBeforeVat": "Net amount",
+    "beforeVat": "excl. tax",
+    "badge": "Justnet Gateway",
+    "title": "Check your items and proceed to payment.",
+    "stepCart": "Basket",
+    "stepPayment": "Billing",
+    "emptyTitle": "Your basket is clear",
+    "emptyDescription": "Select a plan to place your order.",
+    "viewServices": "Browse solutions",
+    "cartItems": "Selected items",
+    "paymentData": "Billing info",
+    "cartDescription": "Verify your selected plans before moving to checkout.",
+    "paymentDescription": "Enter your payment details below to complete your order.",
+    "quantity": "Amount",
+    "subtotal": "Partial total",
+    "vatIncluded": "+ tax",
+    "continueCheckout": "Proceed to pay",
+    "continueShopping": "Add more items",
+    "firstName": "Given name",
+    "lastName": "Surname",
     "email": "Email address",
-    "phone": "Phone",
-    "city": "City",
-    "state": "State",
-    "address": "Address",
-    "postalCode": "Postal code",
-    "country": "Country",
-    "cardData": "Card details",
-    "cardholderName": "Cardholder name",
+    "phone": "Telephone",
+    "city": "Municipality",
+    "state": "State / Province",
+    "address": "Street address",
+    "postalCode": "ZIP code",
+    "country": "Nation",
+    "cardData": "Card information",
+    "cardholderName": "Name on card",
     "cardNumber": "Card number",
-    "month": "Month",
-    "year": "Year",
-    "cvv": "CVV",
-    "backToCart": "Back to cart",
-    "payNow": "Pay now",
-    "processingPayment": "Processing payment...",
-    "paymentRejected": "Payment rejected",
-    "paymentSuccess": "Payment approved. Your purchase was successfully registered.",
-    "unknownPaymentError": "Unknown payment processing error",
-    "summary": "Summary",
-    "currentOrder": "Current order",
-    "services": "Services",
-    "units": "Units",
-    "yes": "Yes",
-    "total": "Total",
-    "secureDescription": "Secure payment with automated processing. Review your information before confirming."
+    "month": "Exp. Month",
+    "year": "Exp. Year",
+    "cvv": "Security code",
+    "backToCart": "Return to basket",
+    "payNow": "Complete order",
+    "processingPayment": "Authorizing charge...",
+    "paymentRejected": "Transaction declined",
+    "paymentSuccess": "Payment confirmed! Your order has been placed.",
+    "unknownPaymentError": "An unexpected error occurred during processing",
+    "summary": "Breakdown",
+    "currentOrder": "Active request",
+    "services": "Solutions",
+    "units": "Qty",
+    "yes": "Confirm",
+    "total": "Grand total",
+    "secureDescription": "Encrypted checkout with automated billing. Please review details before placing order."
   },
   "contact": {
     "alerts": {
-      "errorTitle": "Error",
-      "defaultError": "An error occurred while sending the form"
+      "errorTitle": "Notice",
+      "defaultError": "There was a problem submitting your inquiry"
     },
     "hero": {
-      "badge": "Contact",
-      "title": "Let's talk about your project.",
-      "description": "We create clear, modern Business Intelligence solutions designed to help you make better decisions."
+      "badge": "Direct Contact",
+      "title": "Let's discuss your next milestone.",
+      "description": "We build intuitive, modern Business Intelligence tools tailored to drive sharper decision-making."
     },
     "info": {
-      "title": "Information",
-      "subtitle": "We're ready to help you.",
-      "phone": "Phone",
-      "email": "Email",
-      "office": "Office",
+      "title": "Reach Us",
+      "subtitle": "We are here to assist you.",
+      "phone": "Telephone",
+      "email": "Email address",
+      "office": "Location",
       "address": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México."
     },
     "custom": {
-      "title": "Custom solution",
-      "description": "We design dashboards, automations, and analytics tailored to your business needs.",
-      "button": "Pay custom service"
+      "title": "Tailored approach",
+      "description": "We craft custom dashboards, automated workflows, and data insights tuned to your operational workflow.",
+      "button": "Checkout tailored plan"
     },
     "form": {
-      "title": "Write to us",
-      "subtitle": "We'll respond as soon as possible.",
-      "sending": "Sending...",
-      "submit": "Send message",
+      "title": "Send a message",
+      "subtitle": "Our team will reply shortly.",
+      "sending": "Submitting...",
+      "submit": "Send request",
       "fields": {
-        "name": "Name",
+        "name": "Full name",
         "email": "Email address",
-        "phone": "Phone",
-        "subject": "Subject",
-        "message": "Message"
+        "phone": "Phone number",
+        "subject": "Topic",
+        "message": "Inquiry"
       },
       "placeholders": {
-        "name": "Your name",
-        "email": "email@company.com",
+        "name": "Enter your name",
+        "email": "name@company.com",
         "phone": "+1 555 000 0000",
-        "subject": "How can we help you?",
-        "message": "Tell us about your project..."
+        "subject": "How can we assist you?",
+        "message": "Briefly describe your requirements..."
       }
     },
     "success": {
-      "title": "Message sent!",
-      "description": "Thank you for contacting us. Our team will get back to you soon.",
-      "button": "Send another message"
+      "title": "Inquiry received!",
+      "description": "Thank you for reaching out. A representative will get in touch shortly.",
+      "button": "Submit another inquiry"
     }
   },
   "about": {
     "metadata": {
-      "title": "About Us - Justnet",
-      "description": "Meet the Justnet team, specialists in Business Intelligence and data analysis."
+      "title": "Our Team - Justnet",
+      "description": "Discover the experts at Justnet delivering analytics and Business Intelligence solutions."
     },
     "hero": {
-      "badge": "About Justnet",
-      "title": "Driving smarter decisions with clear data.",
-      "description": "We are a team specialized in Business Intelligence, automation, and strategic analysis focused on transforming complex information into useful tools for growth.",
+      "badge": "Inside Justnet",
+      "title": "Empowering smart choices through structured data.",
+      "description": "We are a specialized team in Business Intelligence, workflow automation, and strategic analytics dedicated to turning complex datasets into practical growth assets.",
       "tags": {
-        "bi": "Business Intelligence",
-        "integration": "Data integration"
+        "bi": "Business Analytics",
+        "integration": "Data Consolidation"
       },
-      "imageAlt": "Team working",
-      "cardSubtitle": "Professional solutions",
-      "cardTitle": "BI + Automation"
+      "imageAlt": "Team collaborating",
+      "cardSubtitle": "Enterprise solutions",
+      "cardTitle": "BI & Automation"
     },
     "approach": {
-      "title": "Our approach",
-      "description": "We design dashboards, automations, and data structures focused on real results. Our goal is to help you visualize important information in a clear, organized, and useful way for strategic decision-making."
+      "title": "Our methodology",
+      "description": "We build reports, automated pipelines, and architectures designed around tangible outcomes. Our mission is making key metrics easy to view, well-structured, and ready for strategic execution."
     },
     "commitment": {
-      "title": "Our commitment",
-      "description": "We work to ensure every client has access to accurate, organized, and actionable information. We aim to create solutions that drive growth, efficiency, and operational clarity.",
-      "highlight": "Precision, strategy, and clarity."
+      "title": "Our promise",
+      "description": "We work to equip every partner with accurate, structured, and actionable insight. We strive to engineer tools that boost corporate efficiency, growth, and operational focus.",
+      "highlight": "Accuracy, strategy, and transparency."
     },
     "pillars": {
-      "title": "How we work",
-      "description": "Modern solutions focused on organization, analysis, and strategic data visualization.",
+      "title": "Our workflow",
+      "description": "Cutting-edge techniques geared toward structuring, analyzing, and presenting core information.",
       "items": {
         "dashboard": {
-          "title": "Clear dashboards",
-          "description": "We create intuitive visualizations focused on the metrics that truly matter."
+          "title": "Intuitive panels",
+          "description": "We deliver sleek visual reports focused strictly on high-priority metrics."
         },
         "data": {
-          "title": "Organized data",
-          "description": "We integrate and structure information to improve decision-making."
+          "title": "Structured pipelines",
+          "description": "We consolidate and organize disparate sources to streamline decision-making."
         },
         "analysis": {
-          "title": "Strategic analysis",
-          "description": "We transform complex data into actionable opportunities for your business."
+          "title": "Strategic insights",
+          "description": "We convert raw metrics into actionable growth opportunities for your company."
         },
         "security": {
-          "title": "Accuracy and trust",
-          "description": "We validate and optimize information to maintain consistency in every report."
+          "title": "Precision & rigor",
+          "description": "We audit and refine raw data to ensure consistency across every dashboard."
         }
       }
     }
   },
   "customService": {
-    "badge": "Custom service",
-    "title": "Confirm and pay for your custom solution.",
-    "description": "Add the agreed service from your quote and continue the process directly from the cart.",
-    "cartItemTitle": "Custom Justnet",
+    "badge": "Custom Plan",
+    "title": "Confirm and check out your tailored plan.",
+    "description": "Select the plan agreed in your proposal and continue directly to complete checkout.",
+    "cartItemTitle": "Justnet Bespoke Plan",
     "features": {
-      "securePayment": "Secure payment",
-      "businessService": "Business service"
+      "securePayment": "Protected checkout",
+      "businessService": "Corporate tier"
     },
     "form": {
-      "title": "Quote details",
-      "description": "Complete the information to add the custom service to the cart.",
-      "name": "Name",
-      "namePlaceholder": "Your name",
-      "email": "Email address",
-      "emailPlaceholder": "email@company.com",
-      "quoteId": "Quote ID",
-      "quoteIdPlaceholder": "Ex. BI-2026-001",
-      "amount": "Amount",
-      "estimatedTotal": "Estimated total",
-      "addToCart": "Add to cart"
+      "title": "Quote reference",
+      "description": "Fill out the fields below to push your agreed package into the basket.",
+      "name": "Full name",
+      "namePlaceholder": "Enter your name",
+      "email": "Business email",
+      "emailPlaceholder": "name@company.com",
+      "quoteId": "Quote reference #",
+      "quoteIdPlaceholder": "E.g. BI-2026-001",
+      "amount": "Agreed price",
+      "estimatedTotal": "Calculated total",
+      "addToCart": "Place in basket"
     },
     "sideCard": {
-      "title": "Custom payment",
-      "description": "This section is intended for clients with custom quotes previously agreed with Justnet.",
-      "identifier": "Identifier",
-      "pending": "Pending",
-      "amount": "Amount",
-      "undefined": "Undefined"
+      "title": "Bespoke checkout",
+      "description": "This portal is reserved for organizations with customized proposals finalized with Justnet.",
+      "identifier": "Reference",
+      "pending": "Awaiting",
+      "amount": "Price",
+      "undefined": "To be determined"
     },
     "alerts": {
-      "warningTitle": "Warning",
-      "completeFields": "Please complete all fields"
+      "warningTitle": "Attention",
+      "completeFields": "Please fill in all mandatory fields"
     }
   },
   "servicesPage": {
-    "taxesIncluded": "+ VAT",
+    "taxesIncluded": "+ tax",
     "hero": {
-      "badge": "Services",
-      "title": "Modern solutions for data and business.",
-      "description": "Explore specialized Business Intelligence, automation, and strategic analysis services to drive smarter decisions."
+      "badge": "Solutions",
+      "title": "Modern tools for intelligence and business operations.",
+      "description": "Discover targeted Business Intelligence, automated pipelines, and strategic reporting built to accelerate decision-making."
     },
     "categories": {
-      "available": "services available",
+      "available": "available packages",
       "data": {
-        "name": "Data packages",
-        "description": "Dashboards, automation, and advanced analytics for businesses."
+        "name": "Analytics Bundles",
+        "description": "Interactive reporting, workflow automation, and advanced data modeling for organizations."
       },
       "single": {
-        "name": "Individual services",
-        "description": "Specific solutions for particular business needs."
+        "name": "Modular Services",
+        "description": "Targeted solutions tailored for specific business needs."
       }
     },
     "catalog": {
-      "badge": "Catalog",
-      "description": "Services designed to connect, organize, and visualize the most important information in your business.",
-      "availableLabel": "Services available",
-      "vatIncluded": "+ VAT",
-      "ready": "Ready to implement",
-      "finalPrice": "Final price",
-      "addToCart": "Add"
+      "badge": "Portfolio",
+      "description": "Services designed to connect, harmonize, and display your core organizational metrics.",
+      "availableLabel": "Active offerings",
+      "vatIncluded": "+ tax",
+      "ready": "Deployment-ready solution",
+      "finalPrice": "Total price",
+      "addToCart": "Select"
     },
     "cta": {
-      "title": "Need a custom solution?",
-      "description": "We design dashboards, automations, and analysis tailored to your business structure and goals.",
-      "button": "Contact us"
+      "title": "Looking for a tailored strategy?",
+      "description": "We engineer custom dashboards, system integrations, and analytics geared toward your company's distinct goals.",
+      "button": "Speak with an expert"
     }
   },
   "homeAbout": {
-    "badge": "About us",
-    "title": "Clear data.<br></br>Smarter decisions.",
-    "description": "At Justnet, we help companies transform scattered information into modern dashboards, clear metrics, and actionable insights.",
-    "imageAlt": "Dashboard analytics",
+    "badge": "Who we are",
+    "title": "Clear insights.<br></br>Smarter execution.",
+    "description": "At Justnet, we guide enterprises in turning fragmented metrics into modern reporting panels, intuitive indicators, and actionable insights.",
+    "imageAlt": "Metrics visualization",
     "features": {
       "integration": {
-        "title": "Data integration",
-        "description": "We connect multiple data sources into a single place."
+        "title": "Data consolidation",
+        "description": "We unify multiple operational sources into a unified repository."
       },
       "visualization": {
-        "title": "Smart visualization",
-        "description": "We design simple, modern, and easy-to-understand dashboards."
+        "title": "Intuitive presentation",
+        "description": "We build sleek, user-friendly dashboards that are effortless to interpret."
       }
     },
     "floatingCard": {
-      "label": "Business Intelligence",
-      "title": "Modern & Simple"
+      "label": "Intelligent Analytics",
+      "title": "Sleek & Direct"
     }
   },
   "homeFeatures": {
     "items": {
       "custom": {
-        "title": "Tailored solutions",
-        "description": "We adapt every dashboard and report to your company's reality, goals, and key metrics."
+        "title": "Bespoke setups",
+        "description": "We align every report and metric strictly with your operating environment and key goals."
       },
       "precision": {
-        "title": "Data accuracy",
-        "description": "We standardize, clean, and validate information so you can trust every indicator."
+        "title": "High fidelity data",
+        "description": "We sanitize, standardize, and verify metrics so you can rely completely on every figure."
       }
     }
   },
   "hero": {
     "badge": "Business Intelligence + AI",
-    "title": "Turn\nyour data\ninto smarter\nbusiness decisions.",
-    "description": "Modern dashboards, statistical analysis, automation, and business intelligence tools designed for companies that want to grow with clarity.",
-    "primaryButton": "Explore services",
-    "secondaryButton": "Contact us",
-    "dashboardLabel": "Dashboard Overview",
-    "dashboardTitle": "Business Metrics",
+    "title": "Turn\nyour raw data\ninto decisive\nactions.",
+    "description": "Modern analytical tools, statistical modeling, operational automation, and business intelligence suites built for clarity-driven growth.",
+    "primaryButton": "Browse packages",
+    "secondaryButton": "Get in touch",
+    "dashboardLabel": "Panel Preview",
+    "dashboardTitle": "Key Performance Metrics",
     "stats": {
-      "revenue": "Revenue",
-      "conversion": "Conversion"
+      "revenue": "Topline",
+      "conversion": "Performance"
     }
   },
   "servicesSection": {
-    "badge": "Services",
-    "title": "Modern solutions<br></br>for data-driven<br></br>businesses.",
-    "description": "Dashboards, automation, analytics and<br></br>intelligent tools to make<br></br>better decisions.",
-    "viewAll": "View all",
-    "taxesIncluded": "+ VAT",
-    "add": "Add"
+    "badge": "Capabilities",
+    "title": "Next-gen solutions<br></br>for forward-thinking<br></br>companies.",
+    "description": "Intuitive reports, workflow automation,<br></br>and smart tools designed to drive<br></br>better business calls.",
+    "viewAll": "Explore full list",
+    "taxesIncluded": "+ tax",
+    "add": "Select"
   },
   "home": {
     "process": {
-      "badge": "Process",
-      "title": "How<br></br>Justnet works.",
-      "description": "A simple, modern process focused on transforming data into clear decisions.",
-      "connectDataTitle": "We connect your data",
-      "connectDataDescription": "We integrate your sources into one place: sales, marketing, CRM, and operations.",
-      "cleanDataTitle": "We clean and organize information",
-      "cleanDataDescription": "We standardize metrics, validate data, and create the right structure.",
-      "buildDashboardsTitle": "We build your dashboards",
-      "buildDashboardsDescription": "We design clear visual panels with custom KPIs for your business.",
-      "deliverySupportTitle": "Delivery and support",
-      "deliverySupportDescription": "You receive dashboards ready to use plus ongoing support for future improvements."
+      "badge": "Methodology",
+      "title": "How<br></br>Justnet operates.",
+      "description": "A streamlined, modern workflow engineered to translate metrics into clear decisions.",
+      "connectDataTitle": "1. We consolidate your sources",
+      "connectDataDescription": "We connect your internal platforms in one hub: sales, marketing platforms, CRM systems, and back-office tools.",
+      "cleanDataTitle": "2. We refine and structure metrics",
+      "cleanDataDescription": "We standardize parameters, audit accuracy, and build reliable underlying structures.",
+      "buildDashboardsTitle": "3. We craft your reports",
+      "buildDashboardsDescription": "We design intuitive visual layouts showcasing key performance indicators customized for your needs.",
+      "deliverySupportTitle": "4. Delivery & continuous advice",
+      "deliverySupportDescription": "You gain fully functional panels along with continuous technical guidance for future expansions."
     },
     "helpSection": {
-      "badge": "Contact",
-      "title": "Need help<br></br>with your data?",
-      "description": "We are ready to help you build dashboards, automations, and intelligent solutions for your business.",
-      "phoneLabel": "Phone",
-      "emailLabel": "Email",
-      "officeLabel": "Office",
+      "badge": "Support",
+      "title": "Need guidance<br></br>with your analytics?",
+      "description": "Our specialists are equipped to assist you in designing dashboards, automated pipelines, and intelligent tools.",
+      "phoneLabel": "Phone line",
+      "emailLabel": "Email address",
+      "officeLabel": "Corporate address",
       "officeAddress": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México.",
-      "imageAlt": "Justnet office",
-      "floatingCardTitle": "Let's talk about your project",
-      "floatingCardDescription": "Tell us what you need and we will design a solution tailored to your company.",
-      "button": "Contact us"
+      "imageAlt": "Justnet headquarters",
+      "floatingCardTitle": "Let's review your goals",
+      "floatingCardDescription": "Share your requirements with us, and we will prepare a tailored proposal for your business.",
+      "button": "Talk to us"
     }
   },
   "footer": {
-    "description": "Modern Business Intelligence, dashboard, and automation solutions for data-driven companies.",
+    "description": "Cutting-edge Business Intelligence, interactive dashboards, and process automation for data-driven companies.",
     "address": "Avenida Homero #205 Piso 10, Colonia Polanco V Sección, Alcaldía Miguel Hidalgo, C.P. 11560, Entidad Federativa Ciudad de México.",
-    "navigation": "Navigation",
-    "legal": "Legal",
+    "navigation": "Sitemap",
+    "legal": "Legal & Terms",
     "privacyPolicy": "Privacy Policy",
     "termsConditions": "Terms and Conditions",
-    "refundPolicy": "Refund and Return Policy",
-    "home": "Home",
-    "about": "About Us",
-    "services": "Services",
-    "contact": "Contact",
-    "securePayments": "Secure payments",
+    "refundPolicy": "Returns and Refunds Policy",
+    "home": "Main",
+    "about": "Who We Are",
+    "services": "Solutions",
+    "contact": "Get in Touch",
+    "securePayments": "Protected billing",
     "copyright": "© 2025 Justnet. All rights reserved.",
-    "bottomText": "Business Intelligence & Analytics"
+    "bottomText": "Business Intelligence & Data Analytics"
   },
   "cartDrawer": {
-    "closeCart": "Close cart",
-    "title": "Cart",
-    "singleService": "service",
-    "multipleServices": "services",
-    "emptyTitle": "Your cart is empty",
-    "emptyDescription": "Add services to start building your custom solution.",
-    "continueExploring": "Continue exploring",
-    "removeFromCart": "Remove from cart",
-    "decreaseQuantity": "Decrease quantity",
-    "increaseQuantity": "Increase quantity",
-    "vatIncluded": "+ VAT",
-    "estimatedTotal": "Estimated total",
-    "taxesIncluded": "Taxes included",
-    "checkout": "Proceed to checkout",
-    "clearCart": "Clear cart"
+    "closeCart": "Hide basket",
+    "title": "Basket",
+    "singleService": "item",
+    "multipleServices": "items",
+    "emptyTitle": "Your basket is currently empty",
+    "emptyDescription": "Select solutions to start building your customized package.",
+    "continueExploring": "Keep browsing",
+    "removeFromCart": "Remove item",
+    "decreaseQuantity": "Lower amount",
+    "increaseQuantity": "Raise amount",
+    "vatIncluded": "+ tax",
+    "estimatedTotal": "Projected total",
+    "taxesIncluded": "Taxes applied",
+    "checkout": "Complete purchase",
+    "clearCart": "Empty basket"
   },
   "serviceModal": {
-    "back": "Back",
-    "professionalService": "Professional Service",
-    "taxIncluded": "Tax included",
-    "quantity": "Quantity",
-    "estimatedTotal": "Estimated total",
-    "serviceSingular": "service",
-    "servicePlural": "services",
-    "addToCart": "Add to cart",
-    "cancel": "Cancel",
+    "back": "Go back",
+    "professionalService": "Specialized Package",
+    "taxIncluded": "Tax applied",
+    "quantity": "Amount",
+    "estimatedTotal": "Projected cost",
+    "serviceSingular": "solution",
+    "servicePlural": "solutions",
+    "addToCart": "Place in basket",
+    "cancel": "Dismiss",
     "brand": "Justnet"
   },
   "Emails": {
     "contactEmail": {
-      "errorMissingFields": "Missing required fields",
-      "businessSubject": "New lead: {asunto}",
-      "businessHeaderTitle": "New Contact",
-      "clientDataTitle": "Client Details",
+      "errorMissingFields": "Required details are missing",
+      "businessSubject": "Incoming lead: {asunto}",
+      "businessHeaderTitle": "New Inquiry",
+      "clientDataTitle": "Sender Details",
       "labelEmail": "Email:",
-      "labelPhone": "Phone:",
-      "notProvided": "Not provided",
-      "labelSubject": "Subject:",
-      "labelMessage": "Message",
-      "confirmationSubject": "We received your message | Justnet",
-      "confirmationHeaderTitle": "Thank you for writing to us!",
+      "labelPhone": "Telephone:",
+      "notProvided": "Unspecified",
+      "labelSubject": "Regarding:",
+      "labelMessage": "Message body",
+      "confirmationSubject": "We have received your message | Justnet",
+      "confirmationHeaderTitle": "Thanks for getting in touch!",
       "confirmationGreeting": "Hello {nombre},",
-      "confirmationMessage": "We have received your request regarding \"{asunto}\". Our team is reviewing your message and will get back to you as soon as possible to help scale your business.",
-      "confirmationYourMessage": "Your Message",
-      "brandSlogan": "Technology with business vision",
-      "errorSubmit": "Could not send the form"
+      "confirmationMessage": "We have successfully received your inquiry regarding \"{asunto}\". Our specialists are reviewing your note and will reach out promptly to help propel your organization.",
+      "confirmationYourMessage": "Submitted Inquiry",
+      "brandSlogan": "Technology with commercial vision",
+      "errorSubmit": "Unable to submit form"
     },
     "checkoutEmail": {
-      "invalidAmount": "Invalid amount",
-      "customerEmailRequired": "Customer email required",
-      "digitalService": "Digital service",
-      "confirmationSubject": "Purchase confirmation: {reference}",
-      "confirmationTitle": "Thank you for your purchase!",
-      "confirmationGreeting": "Hello {customerName}, your payment has been successfully processed. Here is the summary of your order {reference}.",
-      "tableHeaderService": "Service",
-      "tableHeaderQuantity": "Qty.",
-      "tableHeaderPrice": "Price",
-      "totalPaid": "Total Paid:",
-      "nextStepsTitle": "What happens next?",
-      "nextStepsContent": "Our team will review your order and start working on it. If you need to add anything else, reply directly to this email.",
-      "footerText": "Justnet | Technology with business vision",
-      "businessSubject": "New order received: {reference}",
-      "businessHeaderTag": "New Checkout",
-      "clientDataTitle": "Customer details",
-      "labelName": "Name:",
+      "invalidAmount": "Invalid price value",
+      "customerEmailRequired": "Client email is required",
+      "digitalService": "Digital offering",
+      "confirmationSubject": "Order confirmation: {reference}",
+      "confirmationTitle": "Thank you for choosing us!",
+      "confirmationGreeting": "Hello {customerName}, your transaction has been successfully completed. Here is the summary for your order {reference}.",
+      "tableHeaderService": "Item",
+      "tableHeaderQuantity": "Qty",
+      "tableHeaderPrice": "Cost",
+      "totalPaid": "Total Charged:",
+      "nextStepsTitle": "What are the next steps?",
+      "nextStepsContent": "Our specialists will review your order and start setup. Should you need to share further details, simply reply to this email.",
+      "footerText": "Justnet | Technology with commercial vision",
+      "businessSubject": "New purchase registered: {reference}",
+      "businessHeaderTag": "New Order",
+      "clientDataTitle": "Purchaser details",
+      "labelName": "Full Name:",
       "labelEmail": "Email:",
-      "labelPhone": "Phone:",
-      "notProvided": "Not provided",
-      "totalToReceive": "Total to receive:",
-      "successMessage": "Emails sent successfully",
-      "errorMessage": "Error sending emails"
+      "labelPhone": "Telephone:",
+      "notProvided": "Unspecified",
+      "totalToReceive": "Net total to process:",
+      "successMessage": "Email notifications sent successfully",
+      "errorMessage": "Failed to dispatch email notifications"
     }
   }
 }

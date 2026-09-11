@@ -13,6 +13,93 @@ import {
 } from "lucide-react";
 
 import { Link } from "@/i18n/routing";
+import { useProduct } from "@/hooks/useServices";
+
+function CartItemCard({ item }: { item: any }) {
+  const t = useTranslations("cartDrawer");
+  const itemData = useProduct(item.id)
+  const { updateQuantity, removeItem } = useCart()
+
+  return (
+    <div className="group bg-stone-900 border border-stone-800 rounded-3xl p-4 hover:border-stone-700 transition-all duration-300">
+      <div className="flex gap-4">
+        {/* Image */}
+        <div className="w-24 h-24 rounded-2xl overflow-hidden bg-stone-950 border border-stone-800 flex-shrink-0">
+          <img
+            src={itemData.imagen}
+            alt={itemData.nombre}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+
+        {/* Info */}
+        <div className="flex-1 min-w-0">
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <h3 className="text-sm font-bold text-stone-100 leading-snug">
+                {itemData.nombre}
+              </h3>
+
+              <p className="text-orange-400 font-bold text-base mt-2">
+                {itemData.precioFormateado}
+              </p>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => removeItem(itemData.id)}
+              className="text-stone-400 hover:text-red-400 hover:bg-stone-950 transition-all duration-300 rounded-full p-2 border border-transparent hover:border-stone-800"
+              aria-label={t("removeFromCart")}
+            >
+              <Trash2 className="w-4 h-4" />
+            </button>
+          </div>
+
+          {/* Quantity */}
+          <div className="flex items-center justify-between mt-5">
+            <div className="flex items-center bg-stone-950 border border-stone-800 rounded-full overflow-hidden">
+              <button
+                type="button"
+                onClick={() =>
+                  updateQuantity(
+                    itemData.id,
+                    itemData.cantidad - 1
+                  )
+                }
+                className="w-9 h-9 flex items-center justify-center hover:bg-stone-900 transition-colors duration-200"
+                aria-label={t("decreaseQuantity")}
+              >
+                <Minus className="w-3 h-3 text-orange-400" />
+              </button>
+
+              <span className="w-10 text-center text-sm font-bold text-stone-100">
+                {itemData.cantidad}
+              </span>
+
+              <button
+                type="button"
+                onClick={() =>
+                  updateQuantity(
+                    itemData.id,
+                    itemData.cantidad + 1
+                  )
+                }
+                className="w-9 h-9 flex items-center justify-center hover:bg-stone-900 transition-colors duration-200"
+                aria-label={t("increaseQuantity")}
+              >
+                <Plus className="w-3 h-3 text-orange-400" />
+              </button>
+            </div>
+
+            <p className="text-xs text-stone-500 font-medium">
+              {t("vatIncluded")}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function CartDrawer() {
   const t = useTranslations("cartDrawer");
@@ -47,7 +134,7 @@ export default function CartDrawer() {
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-[11px] uppercase tracking-[0.28em] text-orange-400 mb-3 font-bold">
-                Justnet
+                Jusnet
               </p>
 
               <div className="flex items-center gap-4">
@@ -108,86 +195,7 @@ export default function CartDrawer() {
           ) : (
             <div className="space-y-4">
               {items.map((item) => (
-                <div
-                  key={item.id}
-                  className="group bg-stone-900 border border-stone-800 rounded-3xl p-4 hover:border-stone-700 transition-all duration-300"
-                >
-                  <div className="flex gap-4">
-                    {/* Image */}
-                    <div className="w-24 h-24 rounded-2xl overflow-hidden bg-stone-950 border border-stone-800 flex-shrink-0">
-                      <img
-                        src={item.imagen}
-                        alt={item.nombre}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
-                    </div>
-
-                    {/* Info */}
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-start justify-between gap-3">
-                        <div>
-                          <h3 className="text-sm font-bold text-stone-100 leading-snug">
-                            {item.nombre}
-                          </h3>
-
-                          <p className="text-orange-400 font-bold text-base mt-2">
-                            {item.precioFormateado}
-                          </p>
-                        </div>
-
-                        <button
-                          type="button"
-                          onClick={() => removeItem(item.id)}
-                          className="text-stone-400 hover:text-red-400 hover:bg-stone-950 transition-all duration-300 rounded-full p-2 border border-transparent hover:border-stone-800"
-                          aria-label={t("removeFromCart")}
-                        >
-                          <Trash2 className="w-4 h-4" />
-                        </button>
-                      </div>
-
-                      {/* Quantity */}
-                      <div className="flex items-center justify-between mt-5">
-                        <div className="flex items-center bg-stone-950 border border-stone-800 rounded-full overflow-hidden">
-                          <button
-                            type="button"
-                            onClick={() =>
-                              updateQuantity(
-                                item.id,
-                                item.cantidad - 1
-                              )
-                            }
-                            className="w-9 h-9 flex items-center justify-center hover:bg-stone-900 transition-colors duration-200"
-                            aria-label={t("decreaseQuantity")}
-                          >
-                            <Minus className="w-3 h-3 text-orange-400" />
-                          </button>
-
-                          <span className="w-10 text-center text-sm font-bold text-stone-100">
-                            {item.cantidad}
-                          </span>
-
-                          <button
-                            type="button"
-                            onClick={() =>
-                              updateQuantity(
-                                item.id,
-                                item.cantidad + 1
-                              )
-                            }
-                            className="w-9 h-9 flex items-center justify-center hover:bg-stone-900 transition-colors duration-200"
-                            aria-label={t("increaseQuantity")}
-                          >
-                            <Plus className="w-3 h-3 text-orange-400" />
-                          </button>
-                        </div>
-
-                        <p className="text-xs text-stone-500 font-medium">
-                          {t("vatIncluded")}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <CartItemCard key={item.id} item={item} />
               ))}
             </div>
           )}

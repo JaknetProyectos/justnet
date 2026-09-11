@@ -246,9 +246,6 @@ export default function ServiciosPage() {
 
                   <div className="flex items-end justify-between gap-4 pt-4 border-t border-stone-800/80">
                     <div>
-                      <p className="text-xs font-bold uppercase tracking-wider text-stone-400 mb-0.5">
-                        {t("catalog.finalPrice")}
-                      </p>
 
                       <p className="text-2xl sm:text-3xl font-black text-stone-100">
                         {formatPrice(producto.precio)}
